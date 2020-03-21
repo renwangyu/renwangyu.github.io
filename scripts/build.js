@@ -194,6 +194,8 @@ function build(previousFileSizes) {
         );
         return reject(new Error(messages.warnings.join('\n\n')));
       }
+      // 把index.html移动到root下，配合github.io，已经修改了publicPath为build路径下
+      moveIndexHtmlToRoot();
 
       return resolve({
         stats,
@@ -209,4 +211,11 @@ function copyPublicFolder() {
     dereference: true,
     filter: file => file !== paths.appHtml,
   });
+}
+
+function moveIndexHtmlToRoot() {
+  const fileName = 'index.html';
+  const sourceFile = path.resolve(paths.appBuild, fileName);
+  const distFile = path.resolve(paths.appPath, fileName);
+  fs.renameSync(sourceFile, distFile);
 }

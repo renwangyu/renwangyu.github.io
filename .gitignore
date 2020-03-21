@@ -8,7 +8,7 @@
 # testing
 /coverage
 
-# production
+# production 因为是github.io，所以不能忽略/build
 # /build
 
 # misc
