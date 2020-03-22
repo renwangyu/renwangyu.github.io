@@ -1,5 +1,4 @@
 import React from 'react';
-// import UniverseBg from 'src/assets/universe_bg.png';
 
 function Home() {
   return (

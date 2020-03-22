@@ -1,0 +1,18 @@
+.page-universe {
+  height: 100vh;
+  background-color: #0c040e;
+  color: red;
+  background-image: url(../../assets/universe_bg2.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  position: relative;
+
+  #meteor {
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+  }
+}
