@@ -21,10 +21,6 @@ class Crood {
   }
 }
 
-class Base {
-
-}
-
 export {
   Crood,
 }

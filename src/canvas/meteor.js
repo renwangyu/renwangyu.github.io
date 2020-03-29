@@ -62,14 +62,14 @@ class Meteor {
     return (this.now.x >= width) || (this.now.y >= height) || (this.now.x <= 0) || (this.now.y <= 0);
   }
 
-  start() {
-    const { width, height } = this.canvas;
-    if ((this.now.x >= width) || (this.now.y) >= height) {
-      return this.distory();
-    }
-    this.draw();
-    this.handle = rAF(this.start.bind(this));
-  }
+  // start() {
+  //   const { width, height } = this.canvas;
+  //   if ((this.now.x >= width) || (this.now.y) >= height) {
+  //     return this.distory();
+  //   }
+  //   this.draw();
+  //   this.handle = rAF(this.start.bind(this));
+  // }
 
   distory() {
     this.ctx.clearRect(0, 0, this.canvas.width, this.canvas.height);

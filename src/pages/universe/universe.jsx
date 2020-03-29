@@ -1,6 +1,4 @@
 import React, { useEffect, useRef } from 'react';
-import { Crood } from 'src/canvas/base';
-import Meteor from 'src/canvas/meteor';
 import MeteorRain from 'src/canvas/meteor-rain';
 
 const screenAvailWidth = window.screen.availWidth;
