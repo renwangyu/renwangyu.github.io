@@ -2,7 +2,6 @@ import { Crood } from './base';
 import { noop, getRandom } from 'src/utils';
 import FloatPng from 'src/assets/floating.png';
 
-const PI = Math.PI;
 const img = new Image();
 img.src = FloatPng;
 
@@ -34,8 +33,6 @@ export default class FloatBall {
 
   draw() {
     const [x, y] = this.pos.getCroodXY();
-    // console.log(this)
-    console.log(x, y)
     this.ctx.clearRect(x - this.imgWidth / 2, y - this.imgHeight / 2, this.imgWidth, this.imgHeight);
     const nextX = x + this._randomDx() / this.speed;
     const nextY = y + this._randomDy() / this.speed;
