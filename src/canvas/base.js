@@ -10,8 +10,8 @@ class Crood {
     this.y = y;
   }
   setCrood(x, y) {
-    x && this.setX(x);
-    y && this.setY(y);
+    this.setX(x);
+    this.setY(y);
   }
   copyCrood() {
     return new Crood(this.x, this.y);

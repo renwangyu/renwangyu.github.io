@@ -21,7 +21,7 @@ class MeteorRain {
 
   generateRain() {
     for (let i = 0; i < this.num; i++) {
-      this.rain.push(this.createOneMeteor(i));
+      this.rain.push(this._createOneMeteor(i));
     }
   }
 
@@ -38,7 +38,7 @@ class MeteorRain {
     this.handle = rAF(this.launch.bind(this));
   }
 
-  createOneMeteor(index) {
+  _createOneMeteor(index) {
     const speed = getRandom(300, 500);
     const delt = getRandom(10, 15);
     const toWidth = getRandom(0, this.canvas.width);

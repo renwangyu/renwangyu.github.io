@@ -1,11 +1,22 @@
 .page-home {
   height: 100vh;
-  background-color: #1ba2a8;
+  background-image: linear-gradient(to bottom, #1ba2a8, transparent);
   position: relative;
 
+  canvas#glass {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 999;
+  }
   .bottom-glass {
     position: absolute;
     bottom: 0;
     left: 0;
+    height: 300px;
+    width: 100%;
+    background-image: url(../../assets/glass.png);
+    background-size: contain;
+    z-index: 99;
   }
 }

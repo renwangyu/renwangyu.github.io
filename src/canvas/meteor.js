@@ -1,6 +1,5 @@
 import { noop } from 'src/utils';
 import { Crood } from './base';
-import { rAF } from 'src/utils';
 
 const PI = Math.PI;
 
@@ -12,7 +11,7 @@ class Meteor {
       ctx,
       from = new Crood(0, 0),
       to = new Crood(0, 0),
-      speed = 0, // px/s
+      speed = 1, // px/s
       delt = 10,
       r = 1, // raduis px
       color = 'rgba(250,250,250,1)',
@@ -38,7 +37,6 @@ class Meteor {
   }
 
   draw() {
-    
     this.pass = Math.min(this.pass + this.delt, this.dur);
     const percent = this.pass / this.dur;
     if (percent === 1) {
@@ -72,7 +70,6 @@ class Meteor {
   // }
 
   distory() {
-    this.ctx.clearRect(0, 0, this.canvas.width, this.canvas.height);
     this.ctx.clearRect(this.now.x - this.r, this.now.y - this.r, this.r * 2, this.r * 2);
     cancelAnimationFrame(this.handle);
     this.isDistory = true;
