@@ -3,18 +3,26 @@
   background-image: linear-gradient(to bottom, #1ba2a8, transparent 70%);
   position: relative;
 
-  canvas#glass {
+  canvas {
     position: absolute;
     bottom: 0;
     left: 0;
-    z-index: 999;
-  }
-  .bottom-glass {
     position: absolute;
     bottom: 0;
     left: 0;
     height: 300px;
     width: 100%;
+  }
+
+  #floating {
+    z-index: 9999;
+  }
+
+  #glass {
+    z-index: 999;
+  }
+
+  .bottom-glass {
     background-image: url(../../assets/glass.png);
     background-size: contain;
     z-index: 99;

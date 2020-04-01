@@ -18,7 +18,7 @@ export default class FloatBallGroup {
   }
 
   init() {
-    for (let i = 0; i < this.total; i ++) {
+    for (let i = 0; i < this.total; i++) {
       this.balls.push(this._createOneFloatBall());
     }
   }

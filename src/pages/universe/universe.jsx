@@ -1,8 +1,8 @@
 import React, { useEffect, useRef } from 'react';
 import MeteorRain from 'src/canvas/meteor-rain';
 
-const screenAvailWidth = window.screen.availWidth;
-const screenAvailHeight = window.screen.availHeight;
+const screenAvailWidth = window.innerWidth;
+const screenAvailHeight = window.innerHeight;
 
 function Universe() {
   const canvasRef = useRef();
