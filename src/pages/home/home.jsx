@@ -1,7 +1,6 @@
 import React, { useRef, useEffect } from 'react';
 import FloatBallGroup from 'src/canvas/float-ball-group';
 import WavingGlassGroup from 'src/canvas/waving-glass-group';
-import WavingGlass from 'src/canvas/waving-glass';
 
 const screenAvailWidth = window.innerWidth;
 const Height = 300;
@@ -19,7 +18,7 @@ function Home() {
     const fbg = new FloatBallGroup({
       canvas,
       ctx,
-      total: 9,
+      total: 10,
     });
     fbg.start();
 
@@ -29,11 +28,18 @@ function Home() {
       total: 20
     });
     wgg.start();
+
+    return () => {
+      fbg.stop();
+      wgg.stop();
+    }
   });
 
   return (
     <div className="page-home">
-      <div>home</div>
+      <div className="page-home_sea"></div>
+      <div className="page-home_land"></div>
+      
       <canvas
         ref={canvasRef}
         id="floating"

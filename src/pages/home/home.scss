@@ -3,6 +3,35 @@
   background-image: linear-gradient(to bottom, #1ba2a8, transparent 70%);
   position: relative;
 
+  &_sea {
+    position: absolute;
+    left: 0;
+    bottom: 125px;
+    width: 100%;
+    height: 136px;
+    background-image: url(../../assets/sea.png);
+    background-size: contain;
+  }
+
+  &_land {
+    position: absolute;
+    // left: 150px;
+    bottom: 156px;
+    width: 1099px;
+    height: 203px;
+    background-image: url(../../assets/land.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    // &::after {
+    //   content: '';
+    //   width: 67px;
+    //   height: 84px;
+    //   background-image: url(../../assets/lighthouse.png);
+    //   background-size: contain;
+    // }
+  }
+
   canvas {
     position: absolute;
     bottom: 0;
@@ -12,15 +41,16 @@
     left: 0;
     height: 300px;
     width: 100%;
+
+    &#floating {
+      z-index: 9999;
+    }
+  
+    &#glass {
+      z-index: 999;
+    }
   }
 
-  #floating {
-    z-index: 9999;
-  }
-
-  #glass {
-    z-index: 999;
-  }
 
   .bottom-glass {
     background-image: url(../../assets/glass.png);
