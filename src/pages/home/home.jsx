@@ -37,9 +37,9 @@ function Home() {
 
   return (
     <div className="page-home">
+      <div className="page-home_darkcloud"></div>
       <div className="page-home_sea"></div>
       <div className="page-home_land"></div>
-      
       <canvas
         ref={canvasRef}
         id="floating"
