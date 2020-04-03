@@ -1,6 +1,5 @@
 .page-home {
   height: 100vh;
-  // background-image: linear-gradient(to bottom, #1ba2a8, transparent 70%);
   background-image: linear-gradient(to bottom, #1ba2a8, #f9f0dd 45%);
   position: relative;
 
@@ -24,17 +23,42 @@
     background-repeat: no-repeat;
     background-size: contain;
 
+    &::before {
+      content: '';
+      z-index: 9;
+      position: absolute;
+      left: 770px;
+      bottom: 230px;
+      display: block;
+      width: 100px;
+      height: 44px;
+      background-image: url(../../assets/seagulls.png);
+      background-size: contain;
+    }
+
     &::after {
       content: '';
+      z-index: 8;
       position: absolute;
       display: block;
+      left: 700px;
       bottom: 98px;
       width: 100px;
       height: 150px;
-      left: 700px;
       background-image: url(../../assets/lighthouse.png);
       background-size: contain;
     }
+  }
+
+  &_land2 {
+    position: absolute;
+    right: 100px;
+    bottom: 218px;
+    width: 144px;
+    height: 393px;
+    background-image: url(../../assets/land2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
   }
 
   &_darkcloud {
@@ -45,7 +69,20 @@
     height: 262px;
     background-image: url(../../assets/dark-cloud.png);
     background-repeat: repeat-x;
-    // background-size: contain;
+    background-size: contain;
+  }
+
+  &_paperplane {
+    position: absolute;
+    z-index: 1000;
+    bottom: 100px;
+    right: 200px;
+    width: 150px;
+    height: 150px;
+    background-image: url(../../assets/paper-plane.png);
+    background-size: contain;
+    transform: skew(-30deg, 15deg);
+    animation: fly 5s ease-in-out infinite alternate;
   }
 
   canvas {
@@ -72,5 +109,14 @@
     background-image: url(../../assets/glass.png);
     background-size: contain;
     z-index: 99;
+  }
+}
+
+@keyframes fly {
+  from {
+    transform: translate(0, 0) skew(-30deg, 15deg);
+  }
+  to {
+    transform: translate(-120px, -50px) skew(-40deg, 5deg);
   }
 }

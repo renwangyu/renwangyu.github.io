@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4af033860e2d372ef98e6d6762503a38",
+    "revision": "4253a2ec8d344c53f86c2c4748e41b1e",
     "url": "/build/index.html"
   },
   {
-    "revision": "a6bf451da7bdf063acea",
-    "url": "/build/static/css/main.6e0cd869.chunk.css"
+    "revision": "82831ac101442fcabea8",
+    "url": "/build/static/css/main.f9d62bad.chunk.css"
   },
   {
     "revision": "736d34f98156d74d6d95",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/build/static/js/2.7483d6c2.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a6bf451da7bdf063acea",
-    "url": "/build/static/js/main.b40babbf.chunk.js"
+    "revision": "82831ac101442fcabea8",
+    "url": "/build/static/js/main.459331cb.chunk.js"
   },
   {
     "revision": "19e827a2cca408b532f5",
@@ -34,6 +34,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "4ba573689c68a0ed8b0572e497088fac",
     "url": "/build/static/media/land.4ba57368.png"
+  },
+  {
+    "revision": "5d3e72981a69cf20a46bf416de6251b1",
+    "url": "/build/static/media/land2.5d3e7298.png"
+  },
+  {
+    "revision": "60e17c232b944d444c3d3d2cb46e1307",
+    "url": "/build/static/media/paper-plane.60e17c23.png"
   },
   {
     "revision": "d7a93d75925dd065e722d796bdc1b19b",

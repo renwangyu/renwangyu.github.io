@@ -40,6 +40,8 @@ function Home() {
       <div className="page-home_darkcloud"></div>
       <div className="page-home_sea"></div>
       <div className="page-home_land"></div>
+      <div className="page-home_land2"></div>
+      <div className="page-home_paperplane"></div>
       <canvas
         ref={canvasRef}
         id="floating"
