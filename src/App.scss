@@ -3,6 +3,13 @@
   height: 100vh;
   overflow: hidden;
 
+  .my-nav-bar {
+    position: fixed;
+    top: 25px;
+    right: 50px;
+    z-index: 1;
+  }
+
   .my-story {
     transform: translateY(-200vh);
     transition: transform 1s ease-in-out;
@@ -12,6 +19,11 @@
     position: fixed;
     left: 220px;
   }
+}
+
+body {
+  font-family: Georgia, "Times New Roman", "Microsoft YaHei", "微软雅黑", STXihei, "华文细黑", serif;
+  font-size: 14px;
 }
 
 

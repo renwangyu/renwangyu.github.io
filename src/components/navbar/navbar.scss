@@ -1,0 +1,40 @@
+@mixin nav-botton {
+  width: 95px;
+  padding-top: 95px;
+  background-image: url(../../assets/nav.png);
+  background-repeat: no-repeat;
+  text-align: center;
+  cursor: pointer;
+  color: transparent;
+  font-size: 20px;
+  opacity: .5;
+  transition: all .2s ease-in;
+
+  &:hover {
+    opacity: 1;
+    color: #f7ede7;
+    text-shadow: 0 1px 4px #000;
+  }
+}
+
+.comp-navbar {
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  &_aboutme {
+    @include nav-botton;
+    background-position-x: left;
+  }
+
+  &_works {
+    @include nav-botton;
+    background-position-x: center;
+  }
+
+  &_contact {
+    @include nav-botton;
+    background-position-x: right;
+  }
+}

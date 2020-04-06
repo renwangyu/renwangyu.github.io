@@ -10,18 +10,17 @@ function Home() {
   const canvasGlassRef = useRef();
 
   useEffect(() => {
+    // canvas相关初始化
     const canvas = canvasRef.current;
     const ctx = canvas.getContext('2d');
     const canvasGlass = canvasGlassRef.current;
     const ctxGlass = canvasGlass.getContext('2d');
-
     const fbg = new FloatBallGroup({
       canvas,
       ctx,
       total: 10,
     });
     fbg.start();
-
     const wgg = new WavingGlassGroup({
       canvas: canvasGlass,
       ctx: ctxGlass,
