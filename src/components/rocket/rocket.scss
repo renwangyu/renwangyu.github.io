@@ -6,22 +6,40 @@
   background-image: url(../../assets/ready-cloud.png);
   background-size: contain;
   position: absolute;
-  left: calc(50% - 21px);
+  left: 0;
+  right: 0;
   bottom: 0;
+  margin: auto;
+}
+
+@mixin flight-cloud-pseudo {
+  content: '';
+  display: block;
+  width: 98px;
+  height: 44px;
+  background-image: url(../../assets/flight-cloud.png);
+  background-size: contain;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
 }
 
 .comp-rocket {
-  bottom: 100px;
+  bottom: 430px;
+  cursor: pointer;
 
   &_body {
+    position: absolute;
+    z-index: 99;
     width: 145px;
     height: 336px;
     background-image: url(../../assets/rocket.png);
     background-size: contain;
 
     &.ready {
-      position: relative;
-
+      
       &::before {
         @include ready-cloud-pseudo;
         animation: readyCloudLeft 4s linear 1s infinite forwards;
@@ -32,13 +50,62 @@
         animation: readyCloudRight 3s linear 2s infinite forwards;
       }
     }
+
+    &.flight {
+
+      &::before {
+        @include flight-cloud-pseudo;
+        animation: flightCloud .75s ease-out infinite;
+      }
+    }
+  }
+
+  &_astronaut {
+    z-index: 9;
+    position: absolute;
+    top: 50px;
+    left: 25px;
+    width: 150px;
+    height: 150px;
+    margin-left: -30px;
+    background-image: url(../../assets/astronaut.png);
+    background-size: contain;
+    transition: all 1s linear;
+    transform: translateX(0);
+
+    &.out-tank {
+      margin-left: 100px;
+      animation: astronautFloat 5s linear 1.5s infinite alternate;
+    }
+  }
+}
+
+@keyframes astronautFloat {
+  33% {
+    transform: rotate(-45deg);
+  }
+  66% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(45deg);
+  }
+}
+
+@keyframes flightCloud {
+  0% {
+    opacity: 1;
+    transform: scale(.5);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(100px) scale(2) ;
   }
 }
 
 @keyframes readyCloudLeft {
   0% {
     opacity: 1;
-    
   }
   20%{
     opacity: 1;
@@ -46,7 +113,7 @@
   }
   100% {
     opacity: 0;
-    transform: translate(-100px, -220px) rotate(360deg) scale(1.2);
+    transform: translate(-100px, -220px) rotate(360deg) scale(2);
   }
 }
 
@@ -60,6 +127,6 @@
   }
   100% {
     opacity: 0;
-    transform: translate(120px, -240px) rotate(-360deg) scale(1.5);
+    transform: translate(120px, -240px) rotate(-360deg) scale(2);
   }
 }

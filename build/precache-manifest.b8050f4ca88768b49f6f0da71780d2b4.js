@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5b3fd340726d8282be730063f8fc5c96",
+    "revision": "07ce23d3c1566d351e6512928e2694bb",
     "url": "/build/index.html"
   },
   {
-    "revision": "2a30c550385b1d017d8c",
-    "url": "/build/static/css/main.2c7d812b.chunk.css"
+    "revision": "c0c341a3807e1d69f839",
+    "url": "/build/static/css/main.c01136d9.chunk.css"
   },
   {
     "revision": "3148b1c388505d6ca47b",
@@ -16,12 +16,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/build/static/js/2.09047ead.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "2a30c550385b1d017d8c",
-    "url": "/build/static/js/main.9741145f.chunk.js"
+    "revision": "c0c341a3807e1d69f839",
+    "url": "/build/static/js/main.7822c657.chunk.js"
   },
   {
     "revision": "19e827a2cca408b532f5",
     "url": "/build/static/js/runtime-main.276ae779.js"
+  },
+  {
+    "revision": "3aee6e8cf50395c424bee05efc99dcbe",
+    "url": "/build/static/media/astronaut.3aee6e8c.png"
   },
   {
     "revision": "8ee7768e4820303bd93352bc8c97f91f",
