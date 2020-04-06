@@ -3,6 +3,7 @@ import './App.scss';
 import Home from './pages/home';
 import Sky from './pages/sky';
 import Universe from './pages/universe';
+import Rocket from './components/rocket';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <Universe />
         <Sky />
         <Home />
+        <Rocket className="my-rocket" />>
       </div>
     </div>
   );
