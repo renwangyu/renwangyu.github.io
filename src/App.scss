@@ -11,8 +11,25 @@
   }
 
   .my-story {
-    transform: translateY(-200vh);
     transition: transform 1s ease-in-out;
+
+    &.home {
+      transform: translateY(-200vh);
+    }
+
+    &.sky {
+      transform: translateY(-100vh);
+    }
+
+    &.atmosphere {
+      // 暂时是home，以后要加组件atmosphere
+      transform: translateY(-200vh);
+    }
+
+    &.universe {
+      transform: translateY(0);
+    }
+
   }
 
   .my-rocket {
