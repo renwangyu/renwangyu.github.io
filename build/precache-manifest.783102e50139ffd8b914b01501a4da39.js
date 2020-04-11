@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f0d3259022401382e4ef17f36c9938b0",
+    "revision": "c69ef2ecb6ee728cd66ac464add8240b",
     "url": "/build/index.html"
   },
   {
-    "revision": "d72d2cf91e19ec9b7659",
-    "url": "/build/static/css/main.12f3dc5f.chunk.css"
+    "revision": "f7020319a0fd1840fe73",
+    "url": "/build/static/css/main.81a07541.chunk.css"
   },
   {
     "revision": "3148b1c388505d6ca47b",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/build/static/js/2.09047ead.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d72d2cf91e19ec9b7659",
-    "url": "/build/static/js/main.cf92e18f.chunk.js"
+    "revision": "f7020319a0fd1840fe73",
+    "url": "/build/static/js/main.6da82c60.chunk.js"
   },
   {
     "revision": "19e827a2cca408b532f5",
@@ -50,6 +50,22 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "60e17c232b944d444c3d3d2cb46e1307",
     "url": "/build/static/media/paper-plane.60e17c23.png"
+  },
+  {
+    "revision": "3c5db05b5b834427faed77e096c22a28",
+    "url": "/build/static/media/pictonic.3c5db05b.eot"
+  },
+  {
+    "revision": "57518186c68c31967102838f2817d141",
+    "url": "/build/static/media/pictonic.57518186.ttf"
+  },
+  {
+    "revision": "d9eb7bec65a373b0496a6cbd7a56353d",
+    "url": "/build/static/media/pictonic.d9eb7bec.svg"
+  },
+  {
+    "revision": "f00d39ac373e0603986ab3e2dfe02aaa",
+    "url": "/build/static/media/pictonic.f00d39ac.woff"
   },
   {
     "revision": "3dcb40cdfb58c80a4bbc833c81af5c25",
