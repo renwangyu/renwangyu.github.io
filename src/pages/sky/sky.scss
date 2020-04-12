@@ -1,4 +1,25 @@
 .page-sky {
+  position: relative;
   height: 100vh;
   background-image: linear-gradient(to bottom, #010101, #1ba2a8);
+
+  .mac {
+    position: absolute;
+    top: 180px;
+    right: 220px;
+    width: 1088px;
+    height: 829px;
+    background-image: url(../../assets/mac.png);
+    background-size: contain;
+  }
+
+  .cloud {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 320px;
+    background-image: url(../../assets/sky-cloud.png);
+    background-size: contain;
+    background-repeat-y: no-repeat;
+  }
 }

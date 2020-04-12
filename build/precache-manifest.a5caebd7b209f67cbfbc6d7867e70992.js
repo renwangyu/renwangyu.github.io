@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c69ef2ecb6ee728cd66ac464add8240b",
+    "revision": "df56cfb5d957d423aecccb6336ce06ce",
     "url": "/build/index.html"
   },
   {
-    "revision": "f7020319a0fd1840fe73",
-    "url": "/build/static/css/main.81a07541.chunk.css"
+    "revision": "0a2702fbe045cbf1720c",
+    "url": "/build/static/css/main.5816cecd.chunk.css"
   },
   {
     "revision": "3148b1c388505d6ca47b",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/build/static/js/2.09047ead.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f7020319a0fd1840fe73",
-    "url": "/build/static/js/main.6da82c60.chunk.js"
+    "revision": "0a2702fbe045cbf1720c",
+    "url": "/build/static/js/main.c36ffe29.chunk.js"
   },
   {
     "revision": "19e827a2cca408b532f5",
@@ -26,6 +26,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "3aee6e8cf50395c424bee05efc99dcbe",
     "url": "/build/static/media/astronaut.3aee6e8c.png"
+  },
+  {
+    "revision": "5e74b649877d7267a2799f9c38e6feb2",
+    "url": "/build/static/media/bb.5e74b649.png"
   },
   {
     "revision": "8ee7768e4820303bd93352bc8c97f91f",
@@ -42,6 +46,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "5d3e72981a69cf20a46bf416de6251b1",
     "url": "/build/static/media/land2.5d3e7298.png"
+  },
+  {
+    "revision": "7fffc11d63db2324215a7d4abe3050cc",
+    "url": "/build/static/media/mac.7fffc11d.png"
   },
   {
     "revision": "f27b9e1d5102f5a6eef1ab35c2b2b1d1",
@@ -70,6 +78,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "3dcb40cdfb58c80a4bbc833c81af5c25",
     "url": "/build/static/media/rocket.3dcb40cd.png"
+  },
+  {
+    "revision": "4de58d2a6cfcc03605eee1387f88f78f",
+    "url": "/build/static/media/sky-cloud.4de58d2a.png"
   },
   {
     "revision": "d7a93d75925dd065e722d796bdc1b19b",

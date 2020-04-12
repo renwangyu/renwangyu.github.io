@@ -1,4 +1,83 @@
 .comp-introduce {
   color: white;
-  font-size: 30px;;
+  font-size: 30px;
+  background-color: #2b3a41;
+  position: absolute;
+  top: 45px;
+  left: 45px;
+  width: 1000px;
+  height: 565px;
+  padding: 30px;
+
+  .self-info {
+    margin-left: 200px;
+    padding-left: 50px;
+    position: relative;
+
+    &::before {
+      content: "";
+      display: inline-block;
+      width: 200px;
+      height: 200px;
+      background-image: url(../../assets/bb.png);
+      background-size: contain;
+      border-radius: 16px;
+      border: 6px solid;
+      position: absolute;
+      left: -200px;
+    }
+
+    &::after {
+      content: "";
+      position: absolute;
+      bottom: -5px;
+      left: -40px;
+      display: inline-block;
+      width: 48px;
+      height: 48px;
+      background-image: url(../../assets/cn.png);
+      background-size: contain;
+    }
+
+    > p {
+      margin: 0;
+      padding: 0;
+      font-weight: bold;
+
+      em {
+        font-weight: normal;
+        font-style: normal;
+      }
+
+    }
+
+    .tag {
+      font-size: 16px;
+      padding: 8px;
+      border-radius: 4px;
+      margin-right: 10px;
+    }
+  }
+
+  .minor-part {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 20px;
+    line-height: 1.8;
+
+    .skill-info {
+      display: inline-block;
+      margin-right: 20px;
+  
+      i.icon {
+        font-size: 40px;
+        margin-right: 10px;
+      }
+    }
+  
+    .other-info {
+      display: inline-block;
+      width: 270px;
+    }
+  }
 }
