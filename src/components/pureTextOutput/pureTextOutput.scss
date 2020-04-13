@@ -1,0 +1,19 @@
+.comp-pure-text-output {
+
+  > span {
+    animation-name: fadeIn;
+    animation-duration: .2s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: both;
+    opacity: 0;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

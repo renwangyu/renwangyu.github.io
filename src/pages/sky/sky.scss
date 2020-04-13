@@ -5,10 +5,13 @@
 
   .mac {
     position: absolute;
-    top: 180px;
-    right: 220px;
+    top: 0;
+    bottom: 0;
+    // right: 220px;
+    right: -100px;
     width: 1088px;
     height: 829px;
+    margin: auto;
     background-image: url(../../assets/mac.png);
     background-size: contain;
   }

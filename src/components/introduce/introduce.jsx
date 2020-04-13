@@ -1,4 +1,11 @@
 import React, { useEffect, useRef } from 'react';
+import PureTextOutput from 'src/components/pureTextOutput';
+
+const nameDelay = 0;
+const nickDelay = nameDelay + 16;
+const sexDelay = nickDelay + 10;
+const birthdayDelay = sexDelay + 9;
+const jobDelay = birthdayDelay + 4;
 
 function Introduce(props) {
   // const textRef = useRef();
@@ -10,11 +17,11 @@ function Introduce(props) {
   return (
     <article className="comp-introduce">
       <div className="self-info">
-        <p>姓名：<em>任旺瑜（renwangyu）</em></p>
-        <p>昵称：<em>爆爆（bomb）</em></p>
-        <p>性别：<em>理工男</em></p>
-        <p>年龄：<em>保密</em></p>
-        <p>职业：<em>前端攻城狮</em></p>
+        <p>姓名：<em><PureTextOutput value="任旺瑜（renwangyu）" show={true} /></em></p>
+        <p>昵称：<em><PureTextOutput value="爆爆（bomb）" show={true} delay={nickDelay} /></em></p>
+        <p>性别：<em><PureTextOutput value="理工男" show={true} delay={sexDelay} /></em></p>
+        <p>年龄：<em><PureTextOutput value="保密" show={true} delay={birthdayDelay} /></em></p>
+        <p>职业：<em><PureTextOutput value="前端攻城狮" show={true} delay={jobDelay} /></em></p>
         <span className="tag" style={{ background: '#ffb400' }}>大叔</span>
         <span className="tag" style={{ background: '#80ff00' }}>80后</span>
         <span className="tag" style={{ background: '#8000ff' }}>非技术宅</span>
