@@ -1,11 +1,13 @@
 import React, { useEffect, useRef } from 'react';
 import PureTextOutput from 'src/components/pureTextOutput';
+import ProgressBar from 'src/components/progressBar';
 
 const nameDelay = 0;
 const nickDelay = nameDelay + 16;
 const sexDelay = nickDelay + 10;
 const birthdayDelay = sexDelay + 9;
 const jobDelay = birthdayDelay + 4;
+const selfDelay = jobDelay + 10;
 
 function Introduce(props) {
   // const textRef = useRef();
@@ -29,31 +31,35 @@ function Introduce(props) {
       </div>
 
       <div className="minor-part">
+        <div className="other-info">
+          <PureTextOutput
+            value="保持童心的80后程序猿大叔，乐观开朗，幽默大方，喜欢交朋友，热衷新技术~沉迷学习，不能自拔（脸掉了）总之人品尚佳，热爱生活，热爱大家~"
+            show={true}
+            delay={selfDelay}
+            />
+        </div>
         <div className="skill-info">
           <div>
             <i className="icon-html5-01 icon" style={{ color: '#ff0000' }}></i>
-            会一点
+            <ProgressBar className="schedule" value="60" />
           </div>
           <div>
             <i className="icon-css3-01 icon" style={{ color: '#3699d6' }}></i>
-            我觉得还算可以吧
+            <ProgressBar className="schedule" value="70" />
           </div>
           
           <div>
             <i className="icon-prog-js01 icon" style={{ color: '#f0d91e' }}></i>
-            还算懂点皮毛
+            <ProgressBar className="schedule" value="85" />
           </div>
           <div>
             <i className="icon-prog-nodejs01 icon" style={{ color: '#8cc03c' }}></i>
-            还算懂点皮毛
+            <ProgressBar className="schedule" value="50" />
           </div>
           <div>
             <i className="icon-prog-python icon" style={{ color: '#84a6d9' }}></i>
-            好好学习天天向上
+            <ProgressBar className="schedule" value="30" />
           </div>
-        </div>
-        <div className="other-info">
-          hello world
         </div>
       </div>
     </article>

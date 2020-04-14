@@ -73,11 +73,21 @@
         font-size: 40px;
         margin-right: 10px;
       }
+
+      .schedule {
+        display: inline-block;
+        width: 400px;
+        height: 30px;
+        padding: 0;
+        vertical-align: middle;
+      }
     }
   
     .other-info {
       display: inline-block;
-      width: 270px;
+      width: 48%;
+      margin-right: 2%;
+      font-style: italic;
     }
   }
 }
