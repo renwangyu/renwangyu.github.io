@@ -15,14 +15,14 @@ function Universe() {
   });
 
   return (
-    <div className="page-universe">
+    <article className="page-universe">
       <canvas
         ref={canvasRef}
         id="meteor"
         width={ screenAvailWidth }
         height={ screenAvailHeight }
         />
-    </div>
+    </article>
   )
 }
 

@@ -41,11 +41,11 @@ function Introduce(props) {
         <div className="skill-info">
           <div>
             <i className="icon-html5-01 icon" style={{ color: '#ff0000' }}></i>
-            <ProgressBar className="schedule" value="60" />
+            <ProgressBar className="schedule" value="70" />
           </div>
           <div>
             <i className="icon-css3-01 icon" style={{ color: '#3699d6' }}></i>
-            <ProgressBar className="schedule" value="70" />
+            <ProgressBar className="schedule" value="75" />
           </div>
           
           <div>
@@ -54,11 +54,11 @@ function Introduce(props) {
           </div>
           <div>
             <i className="icon-prog-nodejs01 icon" style={{ color: '#8cc03c' }}></i>
-            <ProgressBar className="schedule" value="50" />
+            <ProgressBar className="schedule" value="60" />
           </div>
           <div>
             <i className="icon-prog-python icon" style={{ color: '#84a6d9' }}></i>
-            <ProgressBar className="schedule" value="30" />
+            <ProgressBar className="schedule" value="40" />
           </div>
         </div>
       </div>

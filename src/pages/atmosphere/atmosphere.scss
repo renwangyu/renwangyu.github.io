@@ -1,0 +1,27 @@
+.page-atmosphere {
+  position: relative;
+  height: 100vh;
+  background-image: linear-gradient(to bottom, #010101, #470f50);
+
+  &::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../../assets/star.png);
+    animation: starRotate 100s linear infinite;
+  }
+}
+
+@keyframes starRotate {
+  from {
+    transform: rotate(0);
+  }
+  to
+  {
+    transform: rotate(360deg);
+  }
+}

@@ -37,7 +37,7 @@ function Home() {
   });
 
   return (
-    <div className="page-home">
+    <article className="page-home">
       <div className="page-home_darkcloud"></div>
       <div className="page-home_sea"></div>
       <div className="page-home_land"></div>
@@ -56,7 +56,7 @@ function Home() {
         height={Height}
         className="bottom-glass"
         />
-    </div>
+    </article>
   );
 }
 

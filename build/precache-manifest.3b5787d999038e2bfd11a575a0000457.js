@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2a1c4c0a1beec58880dc13033897e1d6",
+    "revision": "ea0c02fad5804be2363a828358b62d6a",
     "url": "/build/index.html"
   },
   {
-    "revision": "973505799bd18cc2a992",
-    "url": "/build/static/css/main.ab69249e.chunk.css"
+    "revision": "158eef3bf1d7e812b47d",
+    "url": "/build/static/css/main.4be295c2.chunk.css"
   },
   {
     "revision": "3148b1c388505d6ca47b",
@@ -16,28 +16,28 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/build/static/js/2.09047ead.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "973505799bd18cc2a992",
-    "url": "/build/static/js/main.59decb67.chunk.js"
+    "revision": "158eef3bf1d7e812b47d",
+    "url": "/build/static/js/main.09b52715.chunk.js"
   },
   {
     "revision": "19e827a2cca408b532f5",
     "url": "/build/static/js/runtime-main.276ae779.js"
   },
   {
-    "revision": "3aee6e8cf50395c424bee05efc99dcbe",
-    "url": "/build/static/media/astronaut.3aee6e8c.png"
+    "revision": "a38ebbab6e41756220585b12591454e8",
+    "url": "/build/static/media/astronaut.a38ebbab.png"
   },
   {
-    "revision": "5e74b649877d7267a2799f9c38e6feb2",
-    "url": "/build/static/media/bb.5e74b649.png"
+    "revision": "ec62a105609a0db75405b92166ab39df",
+    "url": "/build/static/media/bb.ec62a105.png"
   },
   {
     "revision": "8ee7768e4820303bd93352bc8c97f91f",
     "url": "/build/static/media/dark-cloud.8ee7768e.png"
   },
   {
-    "revision": "09e3b839bc428ad5aed02f6d7a7adbb4",
-    "url": "/build/static/media/glass.09e3b839.png"
+    "revision": "230dd6fbc0931a8935da30a75d681db8",
+    "url": "/build/static/media/glass.230dd6fb.png"
   },
   {
     "revision": "4ba573689c68a0ed8b0572e497088fac",
@@ -48,8 +48,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/build/static/media/land2.5d3e7298.png"
   },
   {
-    "revision": "7fffc11d63db2324215a7d4abe3050cc",
-    "url": "/build/static/media/mac.7fffc11d.png"
+    "revision": "6537e8fd6e4eb0cce37beb595d372aa2",
+    "url": "/build/static/media/mac.6537e8fd.png"
   },
   {
     "revision": "f27b9e1d5102f5a6eef1ab35c2b2b1d1",
@@ -80,11 +80,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/build/static/media/rocket.3dcb40cd.png"
   },
   {
-    "revision": "4de58d2a6cfcc03605eee1387f88f78f",
-    "url": "/build/static/media/sky-cloud.4de58d2a.png"
+    "revision": "d273443ad3305857ef5b47f2bf3bd3c4",
+    "url": "/build/static/media/sky-cloud.d273443a.png"
   },
   {
-    "revision": "d7a93d75925dd065e722d796bdc1b19b",
-    "url": "/build/static/media/universe_bg2.d7a93d75.png"
+    "revision": "46c829bdf1560c7a35f6986c33d3cc1f",
+    "url": "/build/static/media/star.46c829bd.png"
+  },
+  {
+    "revision": "0fa2a8f6188df84327d4b4ea68e353a2",
+    "url": "/build/static/media/universe_bg2.0fa2a8f6.png"
   }
 ]);

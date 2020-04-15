@@ -1,7 +1,7 @@
 import { createContext } from 'react';
 
 export const initState = {
-  stage: 'sky',
+  stage: 'atmosphere',
 };
 
 const storeContext = createContext(initState);

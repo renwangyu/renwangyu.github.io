@@ -37,7 +37,7 @@ function Navbar(props) {
         className="comp-navbar_contact"
         onClick={jump('universe')}
         >
-        { isZH ? '联系方式' : 'Contact' }
+        { isZH ? '交个朋友' : 'Contact' }
       </div>
     </article>
   );

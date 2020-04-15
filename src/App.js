@@ -2,13 +2,12 @@ import './App.scss';
 import React, { useReducer } from 'react';
 import Home from './pages/home';
 import Sky from './pages/sky';
+import Atmosphere from './pages/atmosphere';
 import Universe from './pages/universe';
 import Rocket from './components/rocket';
 import Navbar from './components/navbar';
 import storeContext, { initState as store } from './redux/store';
 import reducer from './redux/reducer';
-
-
 
 const { Provider } = storeContext;
 
@@ -21,6 +20,7 @@ function App() {
         <Navbar className="my-nav-bar" />
         <section className={`my-story ${state.stage}`}>
           <Universe />
+          <Atmosphere />
           <Sky />
           <Home />
           <Rocket className="my-rocket" />
