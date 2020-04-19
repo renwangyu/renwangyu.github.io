@@ -1,20 +1,49 @@
 .comp-experience {
   color: white;
-  background-color: #2b3a41;
+  padding: 0 20px;
+  height: 360px;
+  overflow: auto;
 
-  &_record {
-    display: flex;
-    align-items: center;
+  &_wrap {
 
-    &--logo {
-
-      width: 150px;
-      height: 80px;
-      background-color: white;
-      object-fit: contain;
+    > *:not(:last-child) {
+      margin-bottom: 20px;
     }
 
-    &--info {
+  }
+}
+
+.comp-experience-record {
+  display: flex;
+  align-items: center;
+
+  &_logo {
+    width: 120px;
+    height: 80px;
+    background-color: white;
+    object-fit: contain;
+    border-radius: 10px;
+    user-select: none;
+  }
+
+  &_info {
+    margin-left: 20px;
+    font-size: 18px;;
+
+    .info-name {
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 5px;
+
+      &::after {
+        content: attr(data-name);
+        font-size: 12px;
+        padding: 4px;
+        background-color: #333;
+        margin-left: 5px;
+        vertical-align: middle;
+        border-radius: 4px;
+      }
     }
   }
 }

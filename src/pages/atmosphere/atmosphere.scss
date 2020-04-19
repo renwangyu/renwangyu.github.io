@@ -25,21 +25,40 @@
     background-image: url(../../assets/black-cloud.png);
   }
 
-  .work-bar {
+  .work-box {
     position: absolute;
     top: 100px;
-    left: 400px;
-    width: 523px;
-    height: 177px;
-    animation: switch 1s linear infinite alternate;
+    left: 550px;
+
+    .work-bar {
+      width: 523px;
+      height: 177px;
+      animation: switch 1s linear infinite alternate;
+    }
+  
+    .black-board {
+      position: absolute;
+      top: 120px;
+      left: -20px;
+      width: 600px;
+      height: 600px;
+      background-image: url(../../assets/blackboard.png);
+      background-size: 100% 100%;
+      padding: 180px 40px 50px 30px;
+      transform-origin: 50% 0;
+      transform: rotate(20deg);
+      animation: swing 10s ease-in-out infinite alternate;
+    }
   }
 
-  .show-box {
+  .tech-penguin {
     position: absolute;
-    top: 500px;
-    left: 500px;
+    bottom: 0;
+    right: 50px;
+    width: 591px;
+    height: 700px;
+    background-image: url(../../assets/penguin.png);
   }
-
 }
 
 @keyframes starRotate {
@@ -53,10 +72,19 @@
 }
 
 @keyframes switch {
-  0% {
+  from {
     background-image: url(../../assets/work-light1.png);
   }
-  100% {
+  to {
     background-image: url(../../assets/work-light2.png);
+  }
+}
+
+@keyframes swing {
+  from {
+    transform: rotate(5deg);
+  }
+  to {
+    transform: rotate(-5deg);
   }
 }

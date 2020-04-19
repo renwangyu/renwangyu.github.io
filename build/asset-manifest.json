@@ -1,30 +1,30 @@
 {
   "files": {
-    "main.css": "/build/static/css/main.4be295c2.chunk.css",
-    "main.js": "/build/static/js/main.09b52715.chunk.js",
-    "main.js.map": "/build/static/js/main.09b52715.chunk.js.map",
+    "main.css": "/build/static/css/main.820c97f7.chunk.css",
+    "main.js": "/build/static/js/main.18e2ecc8.chunk.js",
+    "main.js.map": "/build/static/js/main.18e2ecc8.chunk.js.map",
     "runtime-main.js": "/build/static/js/runtime-main.276ae779.js",
     "runtime-main.js.map": "/build/static/js/runtime-main.276ae779.js.map",
-    "static/js/2.09047ead.chunk.js": "/build/static/js/2.09047ead.chunk.js",
-    "static/js/2.09047ead.chunk.js.map": "/build/static/js/2.09047ead.chunk.js.map",
+    "static/js/2.bb58bfe0.chunk.js": "/build/static/js/2.bb58bfe0.chunk.js",
+    "static/js/2.bb58bfe0.chunk.js.map": "/build/static/js/2.bb58bfe0.chunk.js.map",
     "index.html": "/build/index.html",
-    "precache-manifest.3b5787d999038e2bfd11a575a0000457.js": "/build/precache-manifest.3b5787d999038e2bfd11a575a0000457.js",
+    "precache-manifest.92e92c575396f9bd1d13034e108f6b8f.js": "/build/precache-manifest.92e92c575396f9bd1d13034e108f6b8f.js",
     "service-worker.js": "/build/service-worker.js",
-    "static/css/main.4be295c2.chunk.css.map": "/build/static/css/main.4be295c2.chunk.css.map",
-    "static/js/2.09047ead.chunk.js.LICENSE.txt": "/build/static/js/2.09047ead.chunk.js.LICENSE.txt",
+    "static/css/main.820c97f7.chunk.css.map": "/build/static/css/main.820c97f7.chunk.css.map",
+    "static/js/2.bb58bfe0.chunk.js.LICENSE.txt": "/build/static/js/2.bb58bfe0.chunk.js.LICENSE.txt",
     "static/media/rocket.scss": "/build/static/media/rocket.3dcb40cd.png",
     "static/media/introduce.scss": "/build/static/media/bb.ec62a105.png",
+    "static/media/atmosphere.scss": "/build/static/media/work-light2.95a3aa86.png",
     "static/media/home.scss": "/build/static/media/paper-plane.60e17c23.png",
+    "static/media/universe.scss": "/build/static/media/universe_bg2.0fa2a8f6.png",
     "static/media/sky.scss": "/build/static/media/sky-cloud.d273443a.png",
     "static/media/navbar.scss": "/build/static/media/nav.f27b9e1d.png",
-    "static/media/index.css": "/build/static/media/pictonic.f00d39ac.woff",
-    "static/media/atmosphere.scss": "/build/static/media/star.46c829bd.png",
-    "static/media/universe.scss": "/build/static/media/universe_bg2.0fa2a8f6.png"
+    "static/media/index.css": "/build/static/media/pictonic.f00d39ac.woff"
   },
   "entrypoints": [
     "static/js/runtime-main.276ae779.js",
-    "static/js/2.09047ead.chunk.js",
-    "static/css/main.4be295c2.chunk.css",
-    "static/js/main.09b52715.chunk.js"
+    "static/js/2.bb58bfe0.chunk.js",
+    "static/css/main.820c97f7.chunk.css",
+    "static/js/main.18e2ecc8.chunk.js"
   ]
 }

@@ -22,11 +22,12 @@ function Introduce(props) {
         <p>姓名：<em><PureTextOutput value="任旺瑜（renwangyu）" show={true} /></em></p>
         <p>昵称：<em><PureTextOutput value="爆爆（bomb）" show={true} delay={nickDelay} /></em></p>
         <p>性别：<em><PureTextOutput value="理工男" show={true} delay={sexDelay} /></em></p>
-        <p>年龄：<em><PureTextOutput value="保密" show={true} delay={birthdayDelay} /></em></p>
+        <p>学历：<em><PureTextOutput value="硕士" show={true} delay={birthdayDelay} /></em></p>
         <p>职业：<em><PureTextOutput value="前端攻城狮" show={true} delay={jobDelay} /></em></p>
         <span className="tag" style={{ background: '#ffb400' }}>大叔</span>
         <span className="tag" style={{ background: '#80ff00' }}>80后</span>
         <span className="tag" style={{ background: '#8000ff' }}>非技术宅</span>
+        <span className="tag" style={{ background: '#3699d6' }}>同济土木男</span>
         <span className="tag" style={{ background: '#ff00ff' }}><span role="img" aria-label="bomb">💣</span></span>
       </div>
 

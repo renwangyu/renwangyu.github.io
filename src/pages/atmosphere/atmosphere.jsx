@@ -5,10 +5,13 @@ function Atmosphere(props) {
   return (
     <article className="page-atmosphere">
       <div className="black-cloud"></div>
-      <div className="work-bar"></div>
-      <Experience
-        className="show-box"
-        />
+      <div className="work-box">
+        <div className="work-bar"></div>
+        <div className="black-board">
+          <Experience />
+        </div>
+      </div>
+      <div className="tech-penguin"></div>
     </article>
   )
 }

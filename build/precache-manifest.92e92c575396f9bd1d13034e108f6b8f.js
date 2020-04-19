@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ea0c02fad5804be2363a828358b62d6a",
+    "revision": "9434107c7c103255d608710154890fd1",
     "url": "/build/index.html"
   },
   {
-    "revision": "158eef3bf1d7e812b47d",
-    "url": "/build/static/css/main.4be295c2.chunk.css"
+    "revision": "2b24460b1403229da6a5",
+    "url": "/build/static/css/main.820c97f7.chunk.css"
   },
   {
-    "revision": "3148b1c388505d6ca47b",
-    "url": "/build/static/js/2.09047ead.chunk.js"
+    "revision": "d14ea0aea3353b305beb",
+    "url": "/build/static/js/2.bb58bfe0.chunk.js"
   },
   {
     "revision": "5ac48c47bb3912b14c2d8de4f56d5ae8",
-    "url": "/build/static/js/2.09047ead.chunk.js.LICENSE.txt"
+    "url": "/build/static/js/2.bb58bfe0.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "158eef3bf1d7e812b47d",
-    "url": "/build/static/js/main.09b52715.chunk.js"
+    "revision": "2b24460b1403229da6a5",
+    "url": "/build/static/js/main.18e2ecc8.chunk.js"
   },
   {
     "revision": "19e827a2cca408b532f5",
@@ -32,8 +32,24 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/build/static/media/bb.ec62a105.png"
   },
   {
+    "revision": "bcb7a7f654975ddd2a98ddc53e563a40",
+    "url": "/build/static/media/black-cloud.bcb7a7f6.png"
+  },
+  {
+    "revision": "d7add7dbc12fc357dc1bc0c5ceed3ad0",
+    "url": "/build/static/media/blackboard.d7add7db.png"
+  },
+  {
     "revision": "8ee7768e4820303bd93352bc8c97f91f",
     "url": "/build/static/media/dark-cloud.8ee7768e.png"
+  },
+  {
+    "revision": "bf951f5b591b3ea04df0e7a205e9b746",
+    "url": "/build/static/media/frame-bottom.bf951f5b.png"
+  },
+  {
+    "revision": "da64a045710baadf9c305eb3366a502c",
+    "url": "/build/static/media/frame-lr.da64a045.png"
   },
   {
     "revision": "230dd6fbc0931a8935da30a75d681db8",
@@ -58,6 +74,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "60e17c232b944d444c3d3d2cb46e1307",
     "url": "/build/static/media/paper-plane.60e17c23.png"
+  },
+  {
+    "revision": "a960419cd19ef5eedf1236a94c1b2946",
+    "url": "/build/static/media/penguin.a960419c.png"
   },
   {
     "revision": "3c5db05b5b834427faed77e096c22a28",
@@ -90,5 +110,13 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "0fa2a8f6188df84327d4b4ea68e353a2",
     "url": "/build/static/media/universe_bg2.0fa2a8f6.png"
+  },
+  {
+    "revision": "58eb25852145a08aeb0cb62e0b9dc25c",
+    "url": "/build/static/media/work-light1.58eb2585.png"
+  },
+  {
+    "revision": "95a3aa864cf9dbafa788a575bc28dc0f",
+    "url": "/build/static/media/work-light2.95a3aa86.png"
   }
 ]);
