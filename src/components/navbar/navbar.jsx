@@ -20,6 +20,11 @@ function Navbar(props) {
   return (
     <article className={classnames('comp-navbar', className)}>
       <div
+        className="comp-navbar_home"
+        onClick={jump('home')}>
+      </div>
+      
+      <div
         className="comp-navbar_aboutme"
         onClick={jump('sky')}
         >

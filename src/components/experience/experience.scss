@@ -1,0 +1,20 @@
+.comp-experience {
+  color: white;
+  background-color: #2b3a41;
+
+  &_record {
+    display: flex;
+    align-items: center;
+
+    &--logo {
+
+      width: 150px;
+      height: 80px;
+      background-color: white;
+      object-fit: contain;
+    }
+
+    &--info {
+    }
+  }
+}
