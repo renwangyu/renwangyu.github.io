@@ -52,9 +52,7 @@
     top: 0;
     left: 0;
     background: linear-gradient(-90deg, violet, mix(violet, deepskyblue, 20%), mix(limegreen, yellow, 70%), yellow, orange, mix(red, deeppink, 20%));
-    transition: all 3s;
-    // border-top-right-radius: 50px;
-    // border-bottom-right-radius: 50px;
+    transition: all 1s;
     
     &:before{
       content: "";

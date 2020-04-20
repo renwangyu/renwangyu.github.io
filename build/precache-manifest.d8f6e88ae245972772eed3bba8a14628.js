@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9434107c7c103255d608710154890fd1",
+    "revision": "ce5da7760c60b9698043ab1cf9539f19",
     "url": "/build/index.html"
   },
   {
-    "revision": "2b24460b1403229da6a5",
-    "url": "/build/static/css/main.820c97f7.chunk.css"
+    "revision": "7cdbebac8405496282a0",
+    "url": "/build/static/css/main.4dc894d2.chunk.css"
   },
   {
-    "revision": "d14ea0aea3353b305beb",
-    "url": "/build/static/js/2.bb58bfe0.chunk.js"
+    "revision": "c1e77d0967d7f7ad3fc9",
+    "url": "/build/static/js/2.b7346f91.chunk.js"
   },
   {
     "revision": "5ac48c47bb3912b14c2d8de4f56d5ae8",
-    "url": "/build/static/js/2.bb58bfe0.chunk.js.LICENSE.txt"
+    "url": "/build/static/js/2.b7346f91.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "2b24460b1403229da6a5",
-    "url": "/build/static/js/main.18e2ecc8.chunk.js"
+    "revision": "7cdbebac8405496282a0",
+    "url": "/build/static/js/main.d2a89584.chunk.js"
   },
   {
     "revision": "19e827a2cca408b532f5",
@@ -96,6 +96,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/build/static/media/pictonic.f00d39ac.woff"
   },
   {
+    "revision": "a0c64637127f2682804d24fbbe4e0aa2",
+    "url": "/build/static/media/planet.a0c64637.png"
+  },
+  {
     "revision": "3dcb40cdfb58c80a4bbc833c81af5c25",
     "url": "/build/static/media/rocket.3dcb40cd.png"
   },
@@ -104,8 +108,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/build/static/media/sky-cloud.d273443a.png"
   },
   {
+    "revision": "b67cb8f3649e9daf1563295a26370cea",
+    "url": "/build/static/media/space-ship.b67cb8f3.png"
+  },
+  {
     "revision": "46c829bdf1560c7a35f6986c33d3cc1f",
     "url": "/build/static/media/star.46c829bd.png"
+  },
+  {
+    "revision": "e5acff7971fffe31c308444ad0068dbe",
+    "url": "/build/static/media/ufo-bottom.e5acff79.png"
   },
   {
     "revision": "0fa2a8f6188df84327d4b4ea68e353a2",

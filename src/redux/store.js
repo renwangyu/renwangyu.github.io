@@ -1,7 +1,8 @@
 import { createContext } from 'react';
 
 export const initState = {
-  stage: 'atmosphere',
+  ready: false, // 资源是否加载完毕
+  stage: 'universe',
 };
 
 const storeContext = createContext(initState);
