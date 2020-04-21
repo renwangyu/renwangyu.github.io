@@ -22,10 +22,12 @@ function Universe() {
         width={ screenAvailWidth }
         height={ screenAvailHeight }
         />
-      <div className="my-game">
-        <div className="my-game-lr"></div>
-        <iframe src="https://renwangyu.github.io/beat_rabbit/fight.html" frameborder="0" />
+      <div className="tech-box">
+        <div className="tech-box-lr"></div>
+        <iframe src="https://renwangyu.github.io/beat_rabbit/fight.html" frameBorder="0" />
       </div>
+
+      <div className="plant-bottom"></div>
     </article>
   )
 }

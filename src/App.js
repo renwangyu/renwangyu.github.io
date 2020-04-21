@@ -26,7 +26,7 @@ function App() {
       const img = new Image();
       img.src = m;
       img.onload = () => {
-        const currProgress = (++loadedNum / total * 100).toFixed()
+        const currProgress = parseInt(++loadedNum / total * 100);
         setProgress(currProgress);
         if (loadedNum === total) {
           dispatch({
