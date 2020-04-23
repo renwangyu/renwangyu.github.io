@@ -2,7 +2,7 @@ import { createContext } from 'react';
 
 export const initState = {
   ready: false, // 资源是否加载完毕
-  stage: 'universe',
+  stage: 'home',
 };
 
 const storeContext = createContext(initState);

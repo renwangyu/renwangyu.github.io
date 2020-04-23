@@ -16,8 +16,20 @@
     animation: starRotate 120s linear infinite;
   }
 
+  &::after {
+    content: "";
+    width: 347px;
+    height: 181px;
+    background-image: url(../../assets/planet.png);
+    background-size: contain;
+    position: absolute;
+    top: 100px;
+    left: 200px;
+  }
+
   .black-cloud {
     position: absolute;
+    z-index: 9;
     top: -180px;
     left: 0;
     width: 100vw;
@@ -27,8 +39,9 @@
 
   .work-box {
     position: absolute;
-    top: 100px;
-    left: 550px;
+    z-index: 99;
+    top: 150px;
+    left: 500px;
 
     .work-bar {
       width: 523px;
@@ -55,9 +68,10 @@
     position: absolute;
     bottom: 0;
     right: 50px;
-    width: 591px;
-    height: 700px;
+    width: 473px;
+    height: 560px;
     background-image: url(../../assets/penguin.png);
+    background-size: contain;
   }
 }
 

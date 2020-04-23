@@ -20,19 +20,10 @@
 }
 
 .comp-navbar {
-  width: 350px;
+  width: 300px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-
-  &_home {
-    width: 70px;
-    height: 70px;
-    background-image: url(../../assets/home.png);
-    background-size: contain;
-    cursor: pointer;
-    transform: translateY(-10px);
-  }
 
   &_aboutme {
     @include nav-botton;

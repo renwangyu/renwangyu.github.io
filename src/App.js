@@ -1,5 +1,6 @@
 import './App.scss';
 import React, { useReducer, useEffect, useState } from 'react';
+import classnames from 'classnames';
 import storeContext, { initState as store } from './redux/store';
 import reducer from './redux/reducer';
 import Home from './pages/home';
@@ -37,6 +38,13 @@ function App() {
     })
   }, []);
 
+  const goHome = () => {
+    dispatch({
+      type: 'switch-stage',
+      payload: 'home',
+    });
+  };
+
   if (!state.ready) {
     return (
       <AssetsLoading value={progress} />
@@ -46,6 +54,7 @@ function App() {
   return (
     <article className="stage">
       <Provider value={{ state, dispatch }}>
+        <div className={classnames('my-home', { hide: state.stage === 'home' })} onClick={goHome}></div>
         <Navbar className="my-nav-bar" />
         <section className={`my-story ${state.stage}`}>
           <Universe />

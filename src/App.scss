@@ -3,6 +3,24 @@
   height: 100vh;
   overflow: hidden;
 
+  .my-home {
+    position: fixed;
+    top: 25px;
+    left: 50px;
+    z-index: 1;
+    width: 100px;
+    height: 75px;
+    background-image: url(./assets/home.png);
+    transition: opacity 1s ease-in-out;
+    opacity: 1;
+    cursor: pointer;
+
+    &.hide {
+      opacity: 0;
+      pointer-events: none;
+    }
+  }
+
   .my-nav-bar {
     position: fixed;
     top: 25px;
@@ -13,6 +31,17 @@
   .my-story {
     transition: transform 1s ease-in-out;
 
+    &::after {
+      content: "";
+      width: 150px;
+      height: 75px;
+      background-image: url(./assets/year2020.png);
+      position: absolute;
+      z-index: 999;
+      bottom: 10px;
+      left: 10px;
+    }
+
     &.home {
       transform: translateY(-300vh);
     }
@@ -22,7 +51,6 @@
     }
 
     &.atmosphere {
-      // 暂时是home，以后要加组件atmosphere
       transform: translateY(-100vh);
     }
 

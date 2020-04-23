@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/build/static/css/main.2313d024.chunk.css",
-    "main.js": "/build/static/js/main.db1df454.chunk.js",
-    "main.js.map": "/build/static/js/main.db1df454.chunk.js.map",
+    "main.css": "/build/static/css/main.a4cbc199.chunk.css",
+    "main.js": "/build/static/js/main.d410ae0a.chunk.js",
+    "main.js.map": "/build/static/js/main.d410ae0a.chunk.js.map",
     "runtime-main.js": "/build/static/js/runtime-main.276ae779.js",
     "runtime-main.js.map": "/build/static/js/runtime-main.276ae779.js.map",
     "static/js/2.b7346f91.chunk.js": "/build/static/js/2.b7346f91.chunk.js",
     "static/js/2.b7346f91.chunk.js.map": "/build/static/js/2.b7346f91.chunk.js.map",
     "index.html": "/build/index.html",
-    "precache-manifest.8588584a6583f8410733121d0a5cf556.js": "/build/precache-manifest.8588584a6583f8410733121d0a5cf556.js",
+    "precache-manifest.d98f07d6b317e536a0b020bb7c4e394a.js": "/build/precache-manifest.d98f07d6b317e536a0b020bb7c4e394a.js",
     "service-worker.js": "/build/service-worker.js",
-    "static/css/main.2313d024.chunk.css.map": "/build/static/css/main.2313d024.chunk.css.map",
+    "static/css/main.a4cbc199.chunk.css.map": "/build/static/css/main.a4cbc199.chunk.css.map",
     "static/js/2.b7346f91.chunk.js.LICENSE.txt": "/build/static/js/2.b7346f91.chunk.js.LICENSE.txt",
     "static/media/astronaut.png": "/build/static/media/astronaut.a38ebbab.png",
     "static/media/bb.png": "/build/static/media/bb.ec62a105.png",
@@ -27,11 +27,12 @@
     "static/media/paper-plane.png": "/build/static/media/paper-plane.60e17c23.png",
     "static/media/penguin.png": "/build/static/media/penguin.a960419c.png",
     "static/media/index.css": "/build/static/media/pictonic.f00d39ac.woff",
-    "static/media/planet.png": "/build/static/media/planet.a0c64637.png",
+    "static/media/planet.png": "/build/static/media/planet.9a35183c.png",
     "static/media/plant-bottom.png": "/build/static/media/plant-bottom.2af0c4b9.png",
     "static/media/rocket.png": "/build/static/media/rocket.3dcb40cd.png",
     "static/media/sky-cloud.png": "/build/static/media/sky-cloud.d273443a.png",
     "static/media/space-ship.png": "/build/static/media/space-ship.b67cb8f3.png",
+    "static/media/star-flow.png": "/build/static/media/star-flow.64950eaf.png",
     "static/media/star.png": "/build/static/media/star.46c829bd.png",
     "static/media/ufo-bottom.png": "/build/static/media/ufo-bottom.e5acff79.png",
     "static/media/universe_bg2.png": "/build/static/media/universe_bg2.0fa2a8f6.png",
@@ -41,7 +42,7 @@
   "entrypoints": [
     "static/js/runtime-main.276ae779.js",
     "static/js/2.b7346f91.chunk.js",
-    "static/css/main.2313d024.chunk.css",
-    "static/js/main.db1df454.chunk.js"
+    "static/css/main.a4cbc199.chunk.css",
+    "static/js/main.d410ae0a.chunk.js"
   ]
 }

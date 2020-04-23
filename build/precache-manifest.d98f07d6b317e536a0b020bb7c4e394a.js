@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4cf8e3e610f8b86d36d5705e78931737",
+    "revision": "c89f0a138f470bd6455752888a498ea7",
     "url": "/build/index.html"
   },
   {
-    "revision": "9952ce0d5e5421032c8b",
-    "url": "/build/static/css/main.2313d024.chunk.css"
+    "revision": "2c8dfdc1027c5d145731",
+    "url": "/build/static/css/main.a4cbc199.chunk.css"
   },
   {
     "revision": "c1e77d0967d7f7ad3fc9",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/build/static/js/2.b7346f91.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "9952ce0d5e5421032c8b",
-    "url": "/build/static/js/main.db1df454.chunk.js"
+    "revision": "2c8dfdc1027c5d145731",
+    "url": "/build/static/js/main.d410ae0a.chunk.js"
   },
   {
     "revision": "19e827a2cca408b532f5",
@@ -96,8 +96,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/build/static/media/pictonic.f00d39ac.woff"
   },
   {
-    "revision": "a0c64637127f2682804d24fbbe4e0aa2",
-    "url": "/build/static/media/planet.a0c64637.png"
+    "revision": "9a35183cef83911564981a32e12f2a0c",
+    "url": "/build/static/media/planet.9a35183c.png"
   },
   {
     "revision": "2af0c4b98fb38fca75b7dc53c35ba125",
@@ -114,6 +114,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "b67cb8f3649e9daf1563295a26370cea",
     "url": "/build/static/media/space-ship.b67cb8f3.png"
+  },
+  {
+    "revision": "64950eaf1ee69c4b07f063a931921779",
+    "url": "/build/static/media/star-flow.64950eaf.png"
   },
   {
     "revision": "46c829bdf1560c7a35f6986c33d3cc1f",
