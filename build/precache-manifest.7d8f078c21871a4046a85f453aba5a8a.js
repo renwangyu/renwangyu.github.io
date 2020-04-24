@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c89f0a138f470bd6455752888a498ea7",
+    "revision": "baace7cc8117fb367543df2f43247cff",
     "url": "/build/index.html"
   },
   {
-    "revision": "2c8dfdc1027c5d145731",
-    "url": "/build/static/css/main.a4cbc199.chunk.css"
+    "revision": "a1a53044435ff6977983",
+    "url": "/build/static/css/main.a02f549a.chunk.css"
   },
   {
-    "revision": "c1e77d0967d7f7ad3fc9",
-    "url": "/build/static/js/2.b7346f91.chunk.js"
+    "revision": "89f026d74c248588efc4",
+    "url": "/build/static/js/2.a5c36292.chunk.js"
   },
   {
     "revision": "5ac48c47bb3912b14c2d8de4f56d5ae8",
-    "url": "/build/static/js/2.b7346f91.chunk.js.LICENSE.txt"
+    "url": "/build/static/js/2.a5c36292.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "2c8dfdc1027c5d145731",
-    "url": "/build/static/js/main.d410ae0a.chunk.js"
+    "revision": "a1a53044435ff6977983",
+    "url": "/build/static/js/main.b0ef2f93.chunk.js"
   },
   {
     "revision": "19e827a2cca408b532f5",
@@ -44,6 +44,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/build/static/media/dark-cloud.8ee7768e.png"
   },
   {
+    "revision": "218f0665ad0222f32dd8c35f8e136542",
+    "url": "/build/static/media/earth.218f0665.jpeg"
+  },
+  {
     "revision": "bf951f5b591b3ea04df0e7a205e9b746",
     "url": "/build/static/media/frame-bottom.bf951f5b.png"
   },
@@ -56,6 +60,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/build/static/media/glass.230dd6fb.png"
   },
   {
+    "revision": "3f424d47be3c6bc7644f5cdaaf96e64b",
+    "url": "/build/static/media/jupiter.3f424d47.jpg"
+  },
+  {
     "revision": "4ba573689c68a0ed8b0572e497088fac",
     "url": "/build/static/media/land.4ba57368.png"
   },
@@ -66,6 +74,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "6537e8fd6e4eb0cce37beb595d372aa2",
     "url": "/build/static/media/mac.6537e8fd.png"
+  },
+  {
+    "revision": "63c568d05d9ea3d61f65c49203a33def",
+    "url": "/build/static/media/mars.63c568d0.jpg"
   },
   {
     "revision": "f27b9e1d5102f5a6eef1ab35c2b2b1d1",
@@ -112,12 +124,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/build/static/media/sky-cloud.d273443a.png"
   },
   {
-    "revision": "b67cb8f3649e9daf1563295a26370cea",
-    "url": "/build/static/media/space-ship.b67cb8f3.png"
+    "revision": "b32f6d1c91a733e5ce0ca99b6ff25b46",
+    "url": "/build/static/media/space-ship.b32f6d1c.png"
   },
   {
-    "revision": "64950eaf1ee69c4b07f063a931921779",
-    "url": "/build/static/media/star-flow.64950eaf.png"
+    "revision": "8a0b8851d4d6b8db0b6520f887acb055",
+    "url": "/build/static/media/star-flow.8a0b8851.png"
   },
   {
     "revision": "46c829bdf1560c7a35f6986c33d3cc1f",
@@ -128,8 +140,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/build/static/media/ufo-bottom.e5acff79.png"
   },
   {
-    "revision": "0fa2a8f6188df84327d4b4ea68e353a2",
-    "url": "/build/static/media/universe_bg2.0fa2a8f6.png"
+    "revision": "2e83a3f97467a72157ccb6c3ffcaa88e",
+    "url": "/build/static/media/universe_bg2.2e83a3f9.jpeg"
+  },
+  {
+    "revision": "5efc1c1cf11cb2c586133a78745512a1",
+    "url": "/build/static/media/venus.5efc1c1c.jpg"
   },
   {
     "revision": "58eb25852145a08aeb0cb62e0b9dc25c",

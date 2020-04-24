@@ -64,6 +64,35 @@
     }
   }
 
+  #earth {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: -220px;
+      left: -60px;
+      width: 200px;
+      height: 184px;
+      background-image: url(../../assets/space-ship.png);
+      background-size: contain;
+    }
+
+    &::after {
+      content: "";
+      position: absolute;
+      top: -100px;
+      right: 30px;
+      width: 100px;
+      height: 91px;
+      background-image: url(../../assets/satellite.png);
+      background-size: contain;
+      animation: satellite 5s linear infinite alternate;
+    }
+  }
+
   .tech-penguin {
     position: absolute;
     bottom: 0;
@@ -100,5 +129,14 @@
   }
   to {
     transform: rotate(-5deg);
+  }
+}
+
+@keyframes satellite {
+  from {
+    transform: rotate(5deg) translate(10px, 10px);
+  }
+  to {
+    transform: rotate(-5deg) translate(-10px, -10px);
   }
 }

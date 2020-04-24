@@ -29,7 +29,7 @@ function Universe() {
           <iframe src="https://renwangyu.github.io/beat_rabbit/fight.html" frameBorder="0" />
         </div>
       </div>
-
+      <div id="plant"></div>
       <div className="plant-bottom"></div>
     </article>
   )
