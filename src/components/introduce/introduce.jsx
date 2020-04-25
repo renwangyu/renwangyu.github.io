@@ -1,4 +1,5 @@
-import React, { useEffect, useRef } from 'react';
+import React from 'react';
+import classnames from 'classnames';
 import PureTextOutput from 'src/components/pureTextOutput';
 import ProgressBar from 'src/components/progressBar';
 
@@ -10,14 +11,10 @@ const jobDelay = birthdayDelay + 4;
 const selfDelay = jobDelay + 10;
 
 function Introduce(props) {
-  // const textRef = useRef();
-
-  useEffect(() => {
-
-  });
+  const { className } = props;
 
   return (
-    <article className="comp-introduce">
+    <article className={ classnames('comp-introduce', className) }>
       <div className="self-info">
         <p>姓名：<em><PureTextOutput value="任旺瑜（renwangyu）" show={true} /></em></p>
         <p>昵称：<em><PureTextOutput value="爆爆（bomb）" show={true} delay={nickDelay} /></em></p>

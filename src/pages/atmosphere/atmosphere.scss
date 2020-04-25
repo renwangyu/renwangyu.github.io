@@ -40,8 +40,8 @@
   .work-box {
     position: absolute;
     z-index: 99;
-    top: 150px;
-    left: 500px;
+    top: 200px;
+    left: 600px;
 
     .work-bar {
       width: 523px;
@@ -66,8 +66,8 @@
 
   #earth {
     position: absolute;
-    bottom: 0;
-    right: 0;
+    bottom: 50px;
+    right: 100px;
 
     &::before {
       content: "";
@@ -78,6 +78,7 @@
       height: 184px;
       background-image: url(../../assets/space-ship.png);
       background-size: contain;
+      animation: satellite 10s linear infinite alternate;
     }
 
     &::after {

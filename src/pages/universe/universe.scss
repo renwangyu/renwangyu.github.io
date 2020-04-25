@@ -1,7 +1,6 @@
 .page-universe {
   height: 100vh;
   background-color: #0c040e;
-  color: red;
   background-image: url(../../assets/universe_bg2.jpeg);
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -19,7 +18,11 @@
 
   .ufo-display-box {
     position: relative;
-    
+    transition: all 1s linear;
+
+    &.hide {
+      transform: translateY(-666px);
+    }
 
     .ufo-bottom {
       background-image: url(../../assets/ufo-bottom.png);
@@ -37,7 +40,7 @@
       margin: auto;
       width: 900px;
       height: 500px;
-  
+
       &::before {
         content: "";
         display: block;
@@ -56,6 +59,22 @@
         background-image: url(../../assets/frame-bottom.png);
         background-size: 100% 100%;
         transform: translateY(-10px);
+      }
+
+      &-close-btn {
+        position: absolute;
+        right: 0;
+        top: 0px;
+        z-index: 9;
+        width: 50px;
+        height: 50px;
+        background-image: url(../../assets/frame-close.png);
+        background-size: contain;
+        cursor: pointer;
+
+        &:active {
+          opacity: .75;
+        }
       }
   
       &-lr {
@@ -84,7 +103,7 @@
           background-position-x: 50px;
         }
       }
-  
+
       > iframe {
         position: absolute;
         top: 10px;
@@ -92,12 +111,69 @@
         width: 800px;
         height: 500px;
       }
+
+      .contact-info-box {
+        background-color: #f5f5f5;
+      }
+
+      .tech-btn-group {
+        position: absolute;
+        z-index: 9;
+        right: 100px;
+
+        > .tech-btn {
+          display: inline-block;
+          width: 95px;
+          height: 35px;
+          background-image: url(../../assets/button.png);
+          background-size: contain;
+          cursor: pointer;
+          text-align: center;
+          line-height: 35px;
+          color: white;
+          opacity: .8;
+  
+          &:hover {
+            opacity: 1;
+          }
+        }
+      }
     }
   }
 
-  
+  .ufo-show-bottom {
+    width: 200px;
+    height: 123px;
+    background-image: url(../../assets/ufo.png);
+    background-size: contain;
+    position: absolute;
+    top: 10px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    cursor: pointer;
+    z-index: -1;
 
-  .plant-bottom {
+    &::before {
+      content: "";
+      width: 40px;
+      height: 40px;
+      background-image: url(../../assets/hand.png);
+      position: absolute;
+      top: 50px;
+      left: 0;
+      right: 0;
+      margin: auto;
+      animation: click .5s ease-in-out infinite alternate;
+    }
+
+    &.show {
+      z-index: 999;
+      transition: all .1s 1.2s linear;
+    }
+  }
+
+  .universe-bottom {
     position: absolute;
     z-index: 9;
     width: 100vw;
@@ -105,7 +181,14 @@
     background-image: url(../../assets/plant-bottom.png);
     bottom: 0;
     background-size: 100% 100%;
-    // background-size: contain;
+  }
+}
 
+@keyframes click {
+  from {
+    transform: rotateX(0);
+  }
+  to {
+    transform: rotateX(-45deg);
   }
 }

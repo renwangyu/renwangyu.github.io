@@ -1,7 +1,6 @@
 import React, { useRef, useEffect, useContext } from 'react';
 import FloatBallGroup from 'src/canvas/float-ball-group';
 import WavingGlassGroup from 'src/canvas/waving-glass-group';
-import storeContext from 'src/redux/store';
 
 const screenAvailWidth = window.innerWidth;
 const Height = 300;
@@ -9,7 +8,6 @@ const Height = 300;
 function Home() {
   const canvasRef = useRef();
   const canvasGlassRef = useRef();
-  const { state, dispatch } = useContext(storeContext);
 
   useEffect(() => {
     // canvas相关初始化

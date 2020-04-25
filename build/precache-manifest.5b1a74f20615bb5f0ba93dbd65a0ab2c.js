@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "baace7cc8117fb367543df2f43247cff",
+    "revision": "812ed2d9708e425a363e2f0f89c8a80c",
     "url": "/build/index.html"
   },
   {
-    "revision": "a1a53044435ff6977983",
-    "url": "/build/static/css/main.a02f549a.chunk.css"
+    "revision": "1362963bc3c9cb32f381",
+    "url": "/build/static/css/main.360ea451.chunk.css"
   },
   {
-    "revision": "89f026d74c248588efc4",
-    "url": "/build/static/js/2.a5c36292.chunk.js"
+    "revision": "51760fc54fc824789b92",
+    "url": "/build/static/js/2.3160a93b.chunk.js"
   },
   {
     "revision": "5ac48c47bb3912b14c2d8de4f56d5ae8",
-    "url": "/build/static/js/2.a5c36292.chunk.js.LICENSE.txt"
+    "url": "/build/static/js/2.3160a93b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a1a53044435ff6977983",
-    "url": "/build/static/js/main.b0ef2f93.chunk.js"
+    "revision": "1362963bc3c9cb32f381",
+    "url": "/build/static/js/main.769c69ff.chunk.js"
   },
   {
     "revision": "19e827a2cca408b532f5",
@@ -72,6 +72,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/build/static/media/land2.5d3e7298.png"
   },
   {
+    "revision": "2ba6c25bf5549ce2188428474031f2e6",
+    "url": "/build/static/media/linkedin.2ba6c25b.jpg"
+  },
+  {
     "revision": "6537e8fd6e4eb0cce37beb595d372aa2",
     "url": "/build/static/media/mac.6537e8fd.png"
   },
@@ -88,8 +92,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/build/static/media/paper-plane.60e17c23.png"
   },
   {
-    "revision": "a960419cd19ef5eedf1236a94c1b2946",
-    "url": "/build/static/media/penguin.a960419c.png"
+    "revision": "f2322b48bbe2ca8fdc6bc0e9c4613cfc",
+    "url": "/build/static/media/penguin.f2322b48.png"
   },
   {
     "revision": "3c5db05b5b834427faed77e096c22a28",
@@ -114,6 +118,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "2af0c4b98fb38fca75b7dc53c35ba125",
     "url": "/build/static/media/plant-bottom.2af0c4b9.png"
+  },
+  {
+    "revision": "a4de8efab18a04735bde3d2d43b43ffb",
+    "url": "/build/static/media/qq.a4de8efa.jpg"
+  },
+  {
+    "revision": "db214a117199340e1a79fe407b404bfd",
+    "url": "/build/static/media/robot.db214a11.png"
   },
   {
     "revision": "3dcb40cdfb58c80a4bbc833c81af5c25",
@@ -146,6 +158,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "5efc1c1cf11cb2c586133a78745512a1",
     "url": "/build/static/media/venus.5efc1c1c.jpg"
+  },
+  {
+    "revision": "a808a48e754106e0e8988c1321214c06",
+    "url": "/build/static/media/wechat.a808a48e.jpg"
   },
   {
     "revision": "58eb25852145a08aeb0cb62e0b9dc25c",

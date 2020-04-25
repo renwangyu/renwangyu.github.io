@@ -1,0 +1,92 @@
+.comp-contact-info {
+  width: calc(100% - 100px);
+  height: 100%;
+  position: absolute;
+  left: 50px;
+  bottom: -10px;
+  padding: 50px;
+
+  &::after {
+    content: "";
+    width: 441px;
+    height: 211px;
+    background-image: url(../../assets/robot.png);
+    background-size: contain;
+    position: absolute;
+    right: 0;
+    bottom: -40px;
+  }
+
+  &_record {
+    font-size: 40px;
+    color: #5c5c5c;
+    cursor: pointer;
+    opacity: .7;
+
+    a, span {
+      font-size: 20px;
+      color: #555;
+      text-decoration: none;
+    }
+
+    > * {
+      vertical-align: middle;
+    }
+
+    > *:not(:last-child) {
+      margin-right: 20px;
+    }
+
+    &:hover {
+      opacity: 1;
+    }
+
+    .wechat {
+
+      &:hover {
+        &::after {
+          content: "";
+          width: 200px;
+          height: 200px;
+          background-image: url(../../assets/wechat.jpg);
+          background-size: contain;
+          position: absolute;
+          top: 50px;
+          right: 50px;
+        }
+      }
+    }
+
+    .qq {
+
+      &:hover {
+        &::after {
+          content: "";
+          width: 200px;
+          height: 238px;
+          background-image: url(../../assets/qq.jpg);
+          background-size: contain;
+          position: absolute;
+          top: 50px;
+          right: 50px;
+        }
+      }
+    }
+
+    .linkedin {
+
+      &:hover {
+        &::after {
+          content: "";
+          width: 200px;
+          height: 200px;
+          background-image: url(../../assets/linkedin.jpg);
+          background-size: contain;
+          position: absolute;
+          top: 50px;
+          right: 50px;
+        }
+      }
+    }
+  }
+}
