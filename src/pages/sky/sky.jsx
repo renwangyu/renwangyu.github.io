@@ -11,7 +11,7 @@ function Sky() {
       <div className="mac">
         { state.stage === 'sky' && <Introduce className="show-content" />}
       </div>
-      <div className="tech-penguin"></div>
+      <div className="hot-air-balloon"></div>
       <div className="cloud"></div>
     </article>
   );

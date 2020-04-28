@@ -28,13 +28,12 @@
 
 .comp-rocket {
   bottom: 430px;
-  cursor: pointer;
 
   &_body {
     position: absolute;
     z-index: 99;
-    width: 145px;
-    height: 336px;
+    width: 174px;
+    height: 403px;
     background-image: url(../../assets/rocket.png);
     background-size: contain;
 
@@ -58,24 +57,31 @@
         animation: flightCloud .75s ease-out infinite;
       }
     }
-  }
 
-  &_astronaut {
-    z-index: 9;
-    position: absolute;
-    top: 50px;
-    left: 25px;
-    width: 150px;
-    height: 150px;
-    margin-left: -30px;
-    background-image: url(../../assets/astronaut.png);
-    background-size: contain;
-    transition: all 1s linear;
-    transform: translateX(0);
+    &.down {
+      transform: rotate(180deg);
+    }
 
-    &.out-tank {
-      margin-left: 100px;
-      animation: astronautFloat 5s linear 1.5s infinite alternate;
+    .home-btn {
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 105px;
+      margin: auto;
+      width: 60px;
+      height: 60px;
+      background-image: url(../../assets/home.png);
+      background-size: contain;
+      opacity: .2;
+      cursor: pointer;
+
+      &:hover {
+        opacity: 1;
+      }
+
+      &.hide {
+        display: none;
+      }
     }
   }
 }

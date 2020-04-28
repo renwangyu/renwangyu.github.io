@@ -18,7 +18,7 @@
     position: absolute;
     top: 0;
     bottom: -20px;
-    right: 200px;
+    right: 400px;
     width: 1088px;
     height: 829px;
     margin: auto;
@@ -40,15 +40,16 @@
     }
   }
 
-  .tech-penguin {
-    width: 300px;
-    height: 360px;
-    background-image: url(../../assets/penguin.png);
+  .hot-air-balloon {
+    width: 400px;
+    height: 574px;
+    background-image: url(../../assets/hot-air-balloon.png);
     background-size: contain;
     position: absolute;
     z-index: 9;
     bottom: 160px;
     right: 20px;
+    animation: hotAirBallFloat linear 3s infinite alternate;
   }
 
   .cloud {
@@ -60,5 +61,24 @@
     background-image: url(../../assets/sky-cloud.png);
     background-size: contain;
     background-repeat-y: no-repeat;
+    animation: yasuo 8s linear infinite alternate;
+  }
+}
+
+@keyframes yasuo {
+  from {
+    transform: scaleY(1);
+  }
+  to {
+    transform: scaleY(.8);
+  }
+}
+
+@keyframes hotAirBallFloat {
+  from {
+    transform: translate(10px, 30px);
+  }
+  to {
+    transform: translate(-10px, -10px);
   }
 }

@@ -3,22 +3,32 @@
   height: 100vh;
   overflow: hidden;
 
-  .my-home {
-    position: fixed;
-    top: 25px;
-    left: 50px;
-    z-index: 1;
-    width: 100px;
-    height: 75px;
-    background-image: url(./assets/home.png);
-    transition: opacity 1s ease-in-out;
-    opacity: 1;
-    cursor: pointer;
+  // .my-home {
+  //   position: fixed;
+  //   top: 25px;
+  //   left: 50px;
+  //   z-index: 1;
+  //   width: 100px;
+  //   height: 75px;
+  //   background-image: url(./assets/home.png);
+  //   transition: opacity 1s ease-in-out;
+  //   opacity: 1;
+  //   cursor: pointer;
 
-    &.hide {
-      opacity: 0;
-      pointer-events: none;
-    }
+  //   &.hide {
+  //     opacity: 0;
+  //     pointer-events: none;
+  //   }
+  // }
+  &::after {
+    content: "";
+    width: 150px;
+    height: 75px;
+    background-image: url(./assets/year2020.png);
+    position: fixed;
+    z-index: 999;
+    top: 10px;
+    left: 10px;
   }
 
   .my-nav-bar {
@@ -30,17 +40,6 @@
 
   .my-story {
     transition: transform 1s ease-in-out;
-
-    &::after {
-      content: "";
-      width: 150px;
-      height: 75px;
-      background-image: url(./assets/year2020.png);
-      position: absolute;
-      z-index: 999;
-      bottom: 10px;
-      left: 10px;
-    }
 
     &.home {
       transform: translateY(-300vh);
@@ -61,8 +60,25 @@
   }
 
   .my-rocket {
-    position: fixed;
-    left: 220px;
+    position: absolute;
+    left: 200px;
+    transition: top 1s ease-in-out;
+
+    &.at-home {
+      top: calc(400vh - 450px);
+    }
+
+    &.at-sky {
+      top: calc(300vh - 600px);
+    }
+
+    &.at-atmosphere {
+      top: calc(200vh - 700px);
+    }
+
+    &.at-universe {
+      top: calc(100vh - 800px);
+    }
   }
 }
 

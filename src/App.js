@@ -54,14 +54,13 @@ function App() {
   return (
     <article className="stage">
       <Provider value={{ state, dispatch }}>
-        <div className={classnames('my-home', { hide: state.stage === 'home' })} onClick={goHome}></div>
         <Navbar className="my-nav-bar" />
-        <section className={`my-story ${state.stage}`}>
+        <section className={classnames('my-story', state.stage)}>
           <Universe />
           <Atmosphere />
           <Sky />
           <Home />
-          <Rocket className="my-rocket" />
+          <Rocket className={classnames('my-rocket', `at-${state.stage}`)} />
         </section>
       </Provider>
     </article>
