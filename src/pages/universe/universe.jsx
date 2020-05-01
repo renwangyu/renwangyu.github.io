@@ -2,6 +2,7 @@ import React, { useEffect, useRef, useState } from 'react';
 import classnames from 'classnames';
 import MeteorRain from 'src/canvas/meteor-rain';
 import ContactInfo from 'src/components/contactInfo';
+import planets from 'src/three/planets';
 
 const screenAvailWidth = window.innerWidth;
 const screenAvailHeight = window.innerHeight;
@@ -10,17 +11,19 @@ function Universe() {
   const canvasRef = useRef();
   const [ufo, setUfo] = useState(true);
   const [channel, setChannel] = useState('demo');
-
-  const closeUfo = () => setUfo(false);
+   const closeUfo = () => setUfo(false);
   const openUfo = () => setUfo(true);
   const toggleChannel = val => () => setChannel(val);
 
   useEffect(() => {
+    // 流星雨
     const canvas = canvasRef.current;
     const ctx = canvas.getContext('2d');
     let rain = new MeteorRain({ canvas, ctx, num: 200 });
     rain.launch();
-  });
+    // 3d行星运动
+    planets();
+  }, []);
 
   return (
     <article className="page-universe">
@@ -46,8 +49,8 @@ function Universe() {
         </div>
       </div>
       <div className={classnames('ufo-show-bottom', { show: !ufo })} onClick={openUfo}></div>
-      {/* <div id="plant"></div> */}
       <div className="universe-bottom"></div>
+      <div id="planets"></div>
     </article>
   )
 }

@@ -194,6 +194,12 @@
       right: 20px;
     }
   }
+
+  #planets {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
 }
 
 @keyframes click {
