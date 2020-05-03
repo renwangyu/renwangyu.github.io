@@ -139,25 +139,29 @@ module.exports = function(webpackEnv) {
       : isEnvDevelopment && 'cheap-module-source-map',
     // These are the "entry points" to our application.
     // This means they will be the "root" imports that are included in JS bundle.
-    entry: [
-      // Include an alternative client for WebpackDevServer. A client's job is to
-      // connect to WebpackDevServer by a socket and get notified about changes.
-      // When you save a file, the client will either apply hot updates (in case
-      // of CSS changes), or refresh the page (in case of JS changes). When you
-      // make a syntax error, this client will display a syntax error overlay.
-      // Note: instead of the default WebpackDevServer client, we use a custom one
-      // to bring better experience for Create React App users. You can replace
-      // the line below with these two lines if you prefer the stock client:
-      // require.resolve('webpack-dev-server/client') + '?/',
-      // require.resolve('webpack/hot/dev-server'),
-      isEnvDevelopment &&
-        require.resolve('react-dev-utils/webpackHotDevClient'),
-      // Finally, this is your app's code:
-      paths.appIndexJs,
-      // We include the app code last so that if there is a runtime error during
-      // initialization, it doesn't blow up the WebpackDevServer client, and
-      // changing JS code would still trigger a refresh.
-    ].filter(Boolean),
+    // entry: [
+    //   // Include an alternative client for WebpackDevServer. A client's job is to
+    //   // connect to WebpackDevServer by a socket and get notified about changes.
+    //   // When you save a file, the client will either apply hot updates (in case
+    //   // of CSS changes), or refresh the page (in case of JS changes). When you
+    //   // make a syntax error, this client will display a syntax error overlay.
+    //   // Note: instead of the default WebpackDevServer client, we use a custom one
+    //   // to bring better experience for Create React App users. You can replace
+    //   // the line below with these two lines if you prefer the stock client:
+    //   // require.resolve('webpack-dev-server/client') + '?/',
+    //   // require.resolve('webpack/hot/dev-server'),
+    //   isEnvDevelopment &&
+    //     require.resolve('react-dev-utils/webpackHotDevClient'),
+    //   // Finally, this is your app's code:
+    //   paths.appIndexJs,
+    //   // We include the app code last so that if there is a runtime error during
+    //   // initialization, it doesn't blow up the WebpackDevServer client, and
+    //   // changing JS code would still trigger a refresh.
+    // ].filter(Boolean),
+    entry: { // 多入口，把数组变成对象，下面的ManifestPlugin的generate要注释，原因见generate
+      index: paths.appIndexJs,
+      mobile: paths.appMobileIndexJS,
+    },
     output: {
       // The build folder.
       path: isEnvProduction ? paths.appBuild : undefined,
@@ -167,7 +171,7 @@ module.exports = function(webpackEnv) {
       // In development, it does not produce real files.
       filename: isEnvProduction
         ? 'static/js/[name].[contenthash:8].js'
-        : isEnvDevelopment && 'static/js/bundle.js',
+        : isEnvDevelopment && 'static/js/[name].bundle.js', // 额外要加[name]
       // TODO: remove this when upgrading to webpack 5
       futureEmitAssets: true,
       // There are also additional JS chunk files if you use code splitting.
@@ -512,10 +516,41 @@ module.exports = function(webpackEnv) {
       // Generates an `index.html` file with the <script> injected.
       new HtmlWebpackPlugin(
         Object.assign(
-          {},
+          {
+            chunks: ['index'],
+            filename: 'index.html',
+          },
           {
             inject: true,
             template: paths.appHtml,
+          },
+          isEnvProduction
+            ? {
+                minify: {
+                  removeComments: true,
+                  collapseWhitespace: true,
+                  removeRedundantAttributes: true,
+                  useShortDoctype: true,
+                  removeEmptyAttributes: true,
+                  removeStyleLinkTypeAttributes: true,
+                  keepClosingSlash: true,
+                  minifyJS: true,
+                  minifyCSS: true,
+                  minifyURLs: true,
+                },
+              }
+            : undefined
+        )
+      ),
+      new HtmlWebpackPlugin(
+        Object.assign(
+          {
+            chunks: ['mobile'],
+            filename: 'mobile.html',
+          },
+          {
+            inject: true,
+            template: paths.appMobileHtml,
           },
           isEnvProduction
             ? {
@@ -584,20 +619,21 @@ module.exports = function(webpackEnv) {
       new ManifestPlugin({
         fileName: 'asset-manifest.json',
         publicPath: paths.publicUrlOrPath,
-        generate: (seed, files, entrypoints) => {
-          const manifestFiles = files.reduce((manifest, file) => {
-            manifest[file.name] = file.path;
-            return manifest;
-          }, seed);
-          const entrypointFiles = entrypoints.main.filter(
-            fileName => !fileName.endsWith('.map')
-          );
+        // 多入口打包的时候，这个必须注释，不然会报filter undefined，和react-scripts版本关：https://blog.csdn.net/KangTongShun/article/details/104380028
+        // generate: (seed, files, entrypoints) => {
+        //   const manifestFiles = files.reduce((manifest, file) => {
+        //     manifest[file.name] = file.path;
+        //     return manifest;
+        //   }, seed);
+        //   const entrypointFiles = entrypoints.main.filter(
+        //     fileName => !fileName.endsWith('.map')
+        //   );
 
-          return {
-            files: manifestFiles,
-            entrypoints: entrypointFiles,
-          };
-        },
+        //   return {
+        //     files: manifestFiles,
+        //     entrypoints: entrypointFiles,
+        //   };
+        // },
       }),
       // Moment.js is an extremely popular library that bundles large locale files
       // by default due to how webpack interprets its code. This is a practical

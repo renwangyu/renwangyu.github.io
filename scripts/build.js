@@ -196,6 +196,7 @@ function build(previousFileSizes) {
       }
       // 把index.html移动到root下，配合github.io，已经修改了publicPath为build路径下
       moveIndexHtmlToRoot();
+      moveMobileHtmlToRoot();
 
       return resolve({
         stats,
@@ -209,12 +210,19 @@ function build(previousFileSizes) {
 function copyPublicFolder() {
   fs.copySync(paths.appPublic, paths.appBuild, {
     dereference: true,
-    filter: file => file !== paths.appHtml,
+    filter: file => file !== paths.appHtml || file !== paths.appMobileHtml,
   });
 }
 
 function moveIndexHtmlToRoot() {
   const fileName = 'index.html';
+  const sourceFile = path.resolve(paths.appBuild, fileName);
+  const distFile = path.resolve(paths.appPath, fileName);
+  fs.renameSync(sourceFile, distFile);
+}
+
+function moveMobileHtmlToRoot() {
+  const fileName = 'mobile.html';
   const sourceFile = path.resolve(paths.appBuild, fileName);
   const distFile = path.resolve(paths.appPath, fileName);
   fs.renameSync(sourceFile, distFile);
