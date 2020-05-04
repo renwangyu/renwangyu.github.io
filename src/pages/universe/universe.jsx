@@ -48,7 +48,7 @@ function Universe() {
           </div>
         </div>
       </div>
-      <div className={classnames('ufo-show-bottom', { show: !ufo })} onClick={openUfo}></div>
+      <div className={classnames('ufo-show-btn', { show: !ufo })} onClick={openUfo}></div>
       <div className="universe-bottom"></div>
       <div id="planets"></div>
     </article>

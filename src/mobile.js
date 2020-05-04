@@ -1,6 +1,6 @@
+import './index.css';
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
 import AppMobile from './AppMobile';
 import * as serviceWorker from './serviceWorker';
 

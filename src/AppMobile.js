@@ -1,13 +1,12 @@
 import './AppMobile.scss';
 import React, { useReducer, useEffect, useState } from 'react';
-import classnames from 'classnames';
-import storeContext, { initState as store } from './redux/store';
+import Prompt from './mobile-pages/prompt';
 
 function AppMobile() {
 
   return (
-    <article className="stage">
-      <div>Mobile renwangyu</div>
+    <article className="mobile-stage">
+      <Prompt />
     </article>
   );
 }

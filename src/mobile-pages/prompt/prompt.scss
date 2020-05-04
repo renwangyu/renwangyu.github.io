@@ -1,0 +1,27 @@
+@import '../../fun.scss';
+
+.mobile-page-prompt {
+
+  &_head {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    padding: r(5);
+    align-items: center;
+
+    > img {
+      width: r(40);
+      height: r(40);
+      border-radius: 50%;
+    }
+
+    &--tip {
+      flex: 1;
+      margin-left: r(10);
+      color: white;
+    }
+
+  }
+}
