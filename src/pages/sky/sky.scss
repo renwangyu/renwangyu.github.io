@@ -18,7 +18,7 @@
     position: absolute;
     top: 0;
     bottom: -20px;
-    right: 400px;
+    right: 300px;
     width: 1088px;
     height: 829px;
     margin: auto;
@@ -48,14 +48,14 @@
     position: absolute;
     z-index: 9;
     bottom: 160px;
-    right: 20px;
+    right: 10px;
     animation: hotAirBallFloat linear 3s infinite alternate;
   }
 
   .cloud {
     position: absolute;
     z-index: 99;
-    bottom: 0;
+    bottom: -10px;
     width: 100%;
     height: 320px;
     background-image: url(../../assets/sky-cloud.png);
