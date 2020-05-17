@@ -2,6 +2,7 @@
   width: 100vw;
   height: 100vh;
   overflow: hidden;
+  transform: translate3d(0, 0, 0);
 
   // .my-home {
   //   position: fixed;
@@ -20,16 +21,6 @@
   //     pointer-events: none;
   //   }
   // }
-  &::after {
-    content: "";
-    width: 150px;
-    height: 75px;
-    background-image: url(./assets/year2020.png);
-    position: fixed;
-    z-index: 999;
-    top: 10px;
-    left: 10px;
-  }
 
   .my-nav-bar {
     position: fixed;
@@ -78,6 +69,48 @@
 
     &.at-universe {
       top: calc(100vh - 800px);
+    }
+  }
+
+  .fork-me {
+    width: 150px;
+    height: 150px;
+    background-image: url(./assets/forkme.png);
+    background-size: contain;
+    position: fixed;
+    z-index: 9;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+    display: block;
+  }
+
+  .icp-beian {
+    position: fixed;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: white;
+    font-size: 16px;
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .beian {
+      
+      &::before {
+        content: "";
+        display: inline-block;
+        margin-right: 5px;
+        width: 20px;
+        height: 20px;
+        background-image: url(./assets/icp.png);
+        background-size: contain;
+        vertical-align: text-bottom;
+      }
     }
   }
 }

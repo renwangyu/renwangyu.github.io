@@ -18,6 +18,10 @@ function ContactInfo(props) {
         <i className="icon-github-01"></i>
         <span><a href="https://github.com/renwangyu" target="_blank">https://github.com/renwangyu</a></span>
       </div>
+      <div className="comp-contact-info_record" title="location">
+        <i className="icon-blogger"></i>
+        <span><a href="https://blog.renwangyu.com/" target="_blank">https://blog.renwangyu.com/</a></span>
+      </div>
       <div className="comp-contact-info_record" title="gmail">
         <i className="icon-gmail"></i>
         <span><a href="mailto:renwangyu1106@gmail.com">renwangyu1106@gmail.com</a></span>
@@ -34,10 +38,8 @@ function ContactInfo(props) {
         <i className="icon-linkedin"></i>
         <span className="linkedin">linkedin.com/in/ren-wangyu-09130136</span>
       </div>
-      <div className="comp-contact-info_record" title="location">
-        <i className="icon-mailru"></i>
-        <span>Shanghai, China</span>
-      </div>
+
+      <div className="current-pos">Shanghai, China</div>
     </article>
   )
 }
