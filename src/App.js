@@ -65,7 +65,7 @@ function App() {
       </Provider>
       <a className="fork-me" href="https://github.com/renwangyu/renwangyu.github.io" target="_blank"></a>
       <div className="icp-beian">
-        @2020&nbsp;&nbsp;|&nbsp;&nbsp;renwangyu&nbsp;&nbsp;|&nbsp;&nbsp;<a href="https://blog.renwangyu.com/">个人空间</a>&nbsp;&nbsp;|&nbsp;&nbsp;<span id="busuanzi_container_site_pv">总访问量<span id="busuanzi_value_site_pv"></span>次</span>
+        @2020&nbsp;&nbsp;|&nbsp;&nbsp;renwangyu&nbsp;&nbsp;|&nbsp;&nbsp;<a href="https://blog.renwangyu.com/">个人空间</a>
         <div className="beian">沪ICP备20013153号</div>
       </div>
     </article>
