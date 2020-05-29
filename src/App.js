@@ -63,10 +63,14 @@ function App() {
           <Rocket className={classnames('my-rocket', `at-${state.stage}`)} />
         </section>
       </Provider>
-      <a className="fork-me" href="https://github.com/renwangyu/renwangyu.github.io" target="_blank"></a>
+      <a className="fork-me" href="https://github.com/renwangyu/renwangyu.github.io" target="_blank" rel="noopener noreferrer"></a>
       <div className="icp-beian">
-        @2020&nbsp;&nbsp;|&nbsp;&nbsp;renwangyu&nbsp;&nbsp;|&nbsp;&nbsp;<a href="https://blog.renwangyu.com/">个人空间</a>
-        <div className="beian">沪ICP备20013153号</div>
+        @2020&nbsp;&nbsp;|&nbsp;&nbsp;renwangyu&nbsp;&nbsp;|&nbsp;&nbsp;<a id="blog" href="https://blog.renwangyu.com/">个人空间</a>
+        <div className="beian">
+          <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=31010702006227" rel="noopener noreferrer">
+          沪公网安备 31010702006227号
+          </a>&nbsp;&nbsp;沪ICP备20013153号
+        </div>
         <span id="busuanzi_container_site_pv">本站总访问量<span id="busuanzi_value_site_pv"></span>次</span>
       </div>
     </article>
