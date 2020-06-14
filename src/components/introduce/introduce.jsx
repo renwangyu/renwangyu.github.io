@@ -23,6 +23,8 @@ function Introduce(props) {
         <p>职业：<em><PureTextOutput value="前端攻城狮" show={true} delay={jobDelay} /></em></p>
         <span className="tag" style={{ background: '#ffb400' }}>大叔</span>
         <span className="tag" style={{ background: '#80ff00' }}>80后</span>
+        <span className="tag" style={{ background: '#fd3536' }}>react</span>
+        <span className="tag" style={{ background: '#1abeab' }}>vue</span>
         <span className="tag" style={{ background: '#8000ff' }}>非技术宅</span>
         <span className="tag" style={{ background: '#3699d6' }}>同济土木男</span>
         <span className="tag" style={{ background: '#ff00ff' }}><span role="img" aria-label="bomb">💣</span></span>
