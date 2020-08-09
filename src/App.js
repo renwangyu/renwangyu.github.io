@@ -65,7 +65,9 @@ function App() {
       </Provider>
       <a className="fork-me" href="https://github.com/renwangyu/renwangyu.github.io" target="_blank" rel="noopener noreferrer"></a>
       <div className="icp-beian">
-        @2020&nbsp;&nbsp;|&nbsp;&nbsp;renwangyu&nbsp;&nbsp;|&nbsp;&nbsp;<a id="blog" href="https://blog.renwangyu.com/">个人空间</a>
+        @2020&nbsp;&nbsp;renwangyu&nbsp;&nbsp;
+        |&nbsp;&nbsp;<a id="blog" href="https://blog.renwangyu.com/" target="_blank">个人空间</a>&nbsp;&nbsp;
+        |&nbsp;&nbsp;<a id="kala" href="https://kalasearch.cn/" target="_blank">卡拉搜索</a>&nbsp;&nbsp;
         <div className="beian">
           <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=31010702006227" rel="noopener noreferrer">
           沪公网安备 31010702006227号
