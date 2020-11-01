@@ -1,39 +1,39 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a819ac1d2b264a98cb4425ae90dfd25b",
+    "revision": "8d29dee57d4150401c07e2d5d8e70367",
     "url": "/build/index.html"
   },
   {
-    "revision": "b5df7d64e37570f1e3aebadd0d4a9a55",
+    "revision": "ab6be6b233419b43cf336f87e772bfb3",
     "url": "/build/mobile.html"
   },
   {
-    "revision": "73dbab9cf5f682cfa11f",
-    "url": "/build/static/css/index.3273bfa6.chunk.css"
+    "revision": "628c66e61188b952f580",
+    "url": "/build/static/css/index.cdb7743d.chunk.css"
   },
   {
-    "revision": "5472eff35f9e47e5ba13",
+    "revision": "6780d86275bef3358205",
     "url": "/build/static/css/mobile.698e4353.chunk.css"
   },
   {
-    "revision": "28c6d87970929294e37e",
-    "url": "/build/static/js/0.66528324.chunk.js"
+    "revision": "5a43ad7ac1bce3ad9c35",
+    "url": "/build/static/js/0.bcaade6e.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/build/static/js/0.66528324.chunk.js.LICENSE.txt"
+    "url": "/build/static/js/0.bcaade6e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "73dbab9cf5f682cfa11f",
-    "url": "/build/static/js/index.479f9e30.chunk.js"
+    "revision": "628c66e61188b952f580",
+    "url": "/build/static/js/index.a849cceb.chunk.js"
   },
   {
     "revision": "81896c98bac7b5b16ab1d3790da5b937",
-    "url": "/build/static/js/index.479f9e30.chunk.js.LICENSE.txt"
+    "url": "/build/static/js/index.a849cceb.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "5472eff35f9e47e5ba13",
-    "url": "/build/static/js/mobile.116ad433.chunk.js"
+    "revision": "6780d86275bef3358205",
+    "url": "/build/static/js/mobile.c0ab06f2.chunk.js"
   },
   {
     "revision": "858a16c104f0f18651c3",
@@ -162,6 +162,18 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "46c829bdf1560c7a35f6986c33d3cc1f",
     "url": "/build/static/media/star.46c829bd.png"
+  },
+  {
+    "revision": "11e1541ba64f750e08ecc75e97f4ca3f",
+    "url": "/build/static/media/tdesign.11e1541b.png"
+  },
+  {
+    "revision": "7254e2c1ceed7add164828d6cde5c3a3",
+    "url": "/build/static/media/tx-prize-1.7254e2c1.png"
+  },
+  {
+    "revision": "c2213f0a8c331c901bf83f948f383c64",
+    "url": "/build/static/media/tx-prize-2.c2213f0a.png"
   },
   {
     "revision": "e5acff7971fffe31c308444ad0068dbe",
