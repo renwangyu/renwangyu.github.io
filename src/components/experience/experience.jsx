@@ -1,9 +1,30 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import classnames from 'classnames';
 import data from './data.json';
+import storeContext from 'src/redux/store';
 
 function Record(props) {
-  const { nickname, name, logo, link, startTime, endTime, position } = props.info;
+  const {
+    id,
+    nickname,
+    name,
+    logo,
+    link,
+    startTime,
+    endTime,
+    position,
+    forget
+  } = props.info;
+  const { state, dispatch } = useContext(storeContext);
+
+  const onViewProject = () => {
+    dispatch({
+      type: 'view-project',
+      payload: {
+        projectId: id,
+      }
+    });
+  }
 
   return (
     <div className="comp-experience-record">
@@ -12,9 +33,19 @@ function Record(props) {
       </a>
       <div className="comp-experience-record_info">
         <div className="info-name" data-name={name}>{nickname}</div>
-        <div>{position}</div>
+        <div>
+          <span>{position}</span>
+          {
+            !forget ? <span className="project-detail" onClick={onViewProject}>
+                        <i className="icon-share" />项目经历
+                      </span>
+                    : null
+          }
+          {/* <span className="project-detail" onClick={onViewProject}>
+            <i className="icon-share" />项目经历
+          </span> */}
+        </div>
         <div>{`${startTime} —— ${endTime}`}</div>
-        <div></div>
       </div>
     </div>
   )
@@ -30,25 +61,29 @@ function Experience(props) {
       {
         jobs.map(job => {
           const {
+            id,
             nickname,
             company: name,
             companyLogo: logo,
             link,
             startTime,
             endTime,
-            position
+            position,
+            forget = false,
           } = job;
           const info = {
+            id,
             name,
             nickname,
             logo,
             link,
             startTime,
             endTime,
-            position
+            position,
+            forget
           };
           return (
-            <Record key={nickname} info={info} />
+            <Record key={id} info={info} />
           );
         })
       }

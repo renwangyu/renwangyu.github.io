@@ -18,7 +18,6 @@ function Atmosphere(props) {
         </div>
       </div>
       <div id="earth"></div>
-      <div className="space-ship"></div>
     </article>
   )
 }

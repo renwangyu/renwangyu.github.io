@@ -72,6 +72,25 @@
     }
   }
 
+  .my-project-detail {
+    margin: auto;
+    padding: 20px;
+    width: 50%;
+    height: 70%;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: auto;
+    border-radius: 10px;
+
+    & * {
+      word-break: break-all;
+    }
+  }
+
   .fork-me {
     width: 150px;
     height: 150px;

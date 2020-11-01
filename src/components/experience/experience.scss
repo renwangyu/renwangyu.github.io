@@ -9,7 +9,6 @@
     > *:not(:last-child) {
       margin-bottom: 20px;
     }
-
   }
 }
 
@@ -28,7 +27,8 @@
 
   &_info {
     margin-left: 20px;
-    font-size: 18px;;
+    font-size: 18px;
+    flex: 1;
 
     .info-name {
       font-size: 24px;
@@ -43,6 +43,27 @@
         margin-left: 5px;
         vertical-align: middle;
         border-radius: 4px;
+      }
+    }
+
+    .project-detail {
+      float: right;
+      font-size: 14px;
+      padding: 2px 4px;
+      margin-left: 20px;
+      border: 1px solid white;
+      border-radius: 4px;
+      color: white;
+      cursor: pointer;
+      transition: all .2s ease-in-out;
+
+      &>i {
+        margin-right: 5px;
+      }
+
+      &:hover {
+        background-color: white;
+        color:#333;
       }
     }
   }

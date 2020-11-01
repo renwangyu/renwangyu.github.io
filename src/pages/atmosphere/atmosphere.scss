@@ -93,16 +93,6 @@
       animation: satellite 5s linear infinite alternate;
     }
   }
-
-  .tech-penguin {
-    position: absolute;
-    bottom: 0;
-    right: 50px;
-    width: 473px;
-    height: 560px;
-    background-image: url(../../assets/penguin.png);
-    background-size: contain;
-  }
 }
 
 @keyframes starRotate {

@@ -10,6 +10,8 @@ import Universe from './pages/universe';
 import Rocket from './components/rocket';
 import Navbar from './components/navbar';
 import AssetsLoading from './components/assetsLoading';
+import Panel from './components/panel';
+import projects from './components/experience/projects';
 
 const { Provider } = storeContext;
 let loadedNum = 0;
@@ -39,13 +41,6 @@ function App() {
     });
   }, []);
 
-  // const goHome = () => {
-  //   dispatch({
-  //     type: 'switch-stage',
-  //     payload: 'home',
-  //   });
-  // };
-
   if (!state.ready) {
     return (
       <AssetsLoading value={progress} />
@@ -63,6 +58,9 @@ function App() {
 					<Home />
 					<Rocket className={classnames('my-rocket', `at-${state.stage}`)} />
 				</section>
+        <Panel show={state.showPanel}>
+          <div className="my-project-detail" dangerouslySetInnerHTML={{__html: projects[`${state.projectId}Html`]}}></div>
+        </Panel>
 			</Provider>
 			<a
 				className="fork-me"
