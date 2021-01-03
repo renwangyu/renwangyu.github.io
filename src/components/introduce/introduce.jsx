@@ -17,8 +17,8 @@ function Introduce(props) {
     <article className={ classnames('comp-introduce', className) }>
       <div className="self-info">
         <p>姓名：<em><PureTextOutput value="任旺瑜（renwangyu）" show={true} /></em></p>
-        <p>昵称：<em><PureTextOutput value="爆爆（bomb）" show={true} delay={nickDelay} /></em></p>
-        <p>性别：<em><PureTextOutput value="理工男" show={true} delay={sexDelay} /></em></p>
+        <p>昵称：<em><PureTextOutput value="爆爆（bob）" show={true} delay={nickDelay} /></em></p>
+        <p>母校：<em><PureTextOutput value="同济大学（本硕）" show={true} delay={sexDelay} /></em></p>
         <p>学历：<em><PureTextOutput value="硕士" show={true} delay={birthdayDelay} /></em></p>
         <p>职业：<em><PureTextOutput value="前端攻城狮" show={true} delay={jobDelay} /></em></p>
         <span className="tag" style={{ background: '#ffb400' }}>大叔</span>
@@ -26,14 +26,14 @@ function Introduce(props) {
         <span className="tag" style={{ background: '#fd3536' }}>react</span>
         <span className="tag" style={{ background: '#1abeab' }}>vue</span>
         <span className="tag" style={{ background: '#8000ff' }}>非技术宅</span>
-        <span className="tag" style={{ background: '#3699d6' }}>同济土木男</span>
+        <span className="tag" style={{ background: '#3699d6' }}>热衷学习</span>
         <span className="tag" style={{ background: '#ff00ff' }}><span role="img" aria-label="bomb">💣</span></span>
       </div>
 
       <div className="minor-part">
         <div className="other-info">
           <PureTextOutput
-            value="保持童心的80后程序猿大叔，乐观开朗，幽默大方，喜欢交朋友，热衷新技术~沉迷学习，不能自拔（脸掉了）总之人品尚佳，热爱生活，热爱大家~"
+            value="保持童心的80后程序猿大叔，乐观开朗，幽默大方，喜欢交朋友，热衷新技术~沉迷学习，不能自拔（脸掉了）总之人品尚佳，热爱生活，热爱大家~keep walking"
             show={true}
             delay={selfDelay}
             />
