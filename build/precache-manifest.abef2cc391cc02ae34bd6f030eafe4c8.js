@@ -1,39 +1,39 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "54714f0f08099f6a7a8f71b832d5e06c",
+    "revision": "75675163634b6ec2207534f75f87401a",
     "url": "/build/index.html"
   },
   {
-    "revision": "5bf5d163fb733c4fffaba709eabc19bd",
+    "revision": "34a11affa104dd8199e9cd013066c162",
     "url": "/build/mobile.html"
   },
   {
-    "revision": "e9d335a20f0b5ff288ac",
+    "revision": "d3dca2cee6b4b62a0e23",
     "url": "/build/static/css/index.3dc94b37.chunk.css"
   },
   {
-    "revision": "72114ae3ff7bbb6674fb",
+    "revision": "8e0885955304d3809293",
     "url": "/build/static/css/mobile.698e4353.chunk.css"
   },
   {
-    "revision": "5a43ad7ac1bce3ad9c35",
-    "url": "/build/static/js/0.bcaade6e.chunk.js"
+    "revision": "43cf474e4801094d2c3c",
+    "url": "/build/static/js/0.1bcd0ffc.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/build/static/js/0.bcaade6e.chunk.js.LICENSE.txt"
+    "url": "/build/static/js/0.1bcd0ffc.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e9d335a20f0b5ff288ac",
-    "url": "/build/static/js/index.98987fbc.chunk.js"
+    "revision": "d3dca2cee6b4b62a0e23",
+    "url": "/build/static/js/index.01d0a358.chunk.js"
   },
   {
     "revision": "81896c98bac7b5b16ab1d3790da5b937",
-    "url": "/build/static/js/index.98987fbc.chunk.js.LICENSE.txt"
+    "url": "/build/static/js/index.01d0a358.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "72114ae3ff7bbb6674fb",
-    "url": "/build/static/js/mobile.c04733d2.chunk.js"
+    "revision": "8e0885955304d3809293",
+    "url": "/build/static/js/mobile.a36f8581.chunk.js"
   },
   {
     "revision": "858a16c104f0f18651c3",
@@ -164,6 +164,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/build/static/media/star.46c829bd.png"
   },
   {
+    "revision": "4e925b1068d947c27e683fddcca367a1",
+    "url": "/build/static/media/tdesign-certificate.4e925b10.png"
+  },
+  {
     "revision": "11e1541ba64f750e08ecc75e97f4ca3f",
     "url": "/build/static/media/tdesign.11e1541b.png"
   },
@@ -174,6 +178,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "c2213f0a8c331c901bf83f948f383c64",
     "url": "/build/static/media/tx-prize-2.c2213f0a.png"
+  },
+  {
+    "revision": "945eebde87c15905c0e9741e99cc9099",
+    "url": "/build/static/media/tx-prize-3.945eebde.png"
   },
   {
     "revision": "e5acff7971fffe31c308444ad0068dbe",
