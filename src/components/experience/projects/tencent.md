@@ -32,6 +32,8 @@
 ## **公司级前端开源项目TDesign**
 TDesign是一款为了提升研发效能、减少重复轮子，建设公司统一的UI组件库。已经提供了适配 PC 端交互的 Vue、React、Angular 版本，和适配移动端交互的 Vue、小程序组件库版本，支持按需加载。积极参与公司开源共建，并认领了tabs组件的开发，配合视觉交互，完成api设计，属性设计和代码的编写，为公司的开源贡献力量。
 
+![p3](../../../assets/tx-prize-3.png)
+![certificate](../../../assets/tdesign-certificate.png)
 ![td](../../../assets/tdesign.png)
 
 ***技术栈：vue***
