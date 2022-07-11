@@ -81,12 +81,19 @@ function App() {
 				<div className="beian">
 					<a
 						target="_blank"
-						href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=31010702006227"
+						href="https://www.beian.gov.cn/portal/registerSystemInfo?recordcode=31010702006227"
 						rel="noopener noreferrer"
 					>
 						沪公网安备 31010702006227号
 					</a>
-					&nbsp;&nbsp;沪ICP备20013153号
+					&nbsp;&nbsp;
+          <a
+						target="_blank"
+						href="https://beian.miit.gov.cn"
+						rel="noopener noreferrer"
+					>
+						沪ICP备20013153号
+					</a>
 				</div>
 				<span id="busuanzi_container_site_pv">
 					本站总访问量<span id="busuanzi_value_site_pv"></span>次
